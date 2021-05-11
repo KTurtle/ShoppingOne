@@ -2,7 +2,7 @@ drop table spuser;
 drop table spproduct;
 drop table spbasket;
 drop table board;
-
+// abc
 create table spuser(
 UserNumber number not null constraints user_UserNumber_PK primary key,
 UserType varchar2(20) default '일반회원',
