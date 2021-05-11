@@ -1,5 +1,5 @@
 package com.company.biz.board.impl;
-//abc
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
