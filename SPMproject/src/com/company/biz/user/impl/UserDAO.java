@@ -32,6 +32,7 @@ public class UserDAO {
 			if (rs.next()) {
 				user = new UserVO();
 				user.setUsername(rs.getString("username"));
+				user.setNumber(rs.getInt("usernumber"));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

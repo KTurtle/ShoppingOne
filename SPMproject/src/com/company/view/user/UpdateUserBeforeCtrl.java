@@ -19,6 +19,7 @@ public class UpdateUserBeforeCtrl extends HttpServlet {
 			throws ServletException, IOException {
 
 		int num = Integer.parseInt(request.getParameter("num"));
+		System.out.println(num);
 
 		UserDAO dao = new UserDAO();
 		UserVO User = dao.getUser(num);

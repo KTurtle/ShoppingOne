@@ -47,7 +47,7 @@
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
                 <h1 class="h1">My page</h1>
-                <a href="updateUserBeforeCtrl?num=${number }">${username }회원정보수정</a>
+                <a href="updateUserBeforeCtrl?num=${number }">회원정보수정</a>
             </div>
         </div>
         <div class="row">
