@@ -42,7 +42,7 @@ public class LoginCtrl extends HttpServlet {
 
 			HttpSession session = request.getSession();
 			session.setAttribute("username", user.getUsername());
-			//session.setAttribute("userid", user.getUserid());
+			session.setAttribute("userid", user.getUserid());
 
 			response.sendRedirect("mainList.jsp");
 		} else {
