@@ -2,6 +2,7 @@ package com.company.view.user;
 
 import java.io.IOException;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,7 +22,8 @@ public class UpdateUserCtrl extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String password = request.getParameter("title");
+		int usernumber = Integer.parseInt(request.getParameter("number"));
+		String password = request.getParameter("password");
 		String username = request.getParameter("username");
 		String tel = request.getParameter("tel");
 		String email = request.getParameter("email");
@@ -29,6 +31,7 @@ public class UpdateUserCtrl extends HttpServlet {
 		
 		//넘어온값을 BoardVO에 다 담아서 한번에 전달
 		UserVO vo = new UserVO();
+		vo.setNumber(usernumber);
 		vo.setPassword(password);
 		vo.setUsername(username);
 		vo.setTel(tel);
@@ -37,9 +40,14 @@ public class UpdateUserCtrl extends HttpServlet {
 		
 		UserDAO dao = new UserDAO();
 		dao.updateUser(vo);
-		
-		response.sendRedirect("joinFormGet.jsp");
-		
+
+		UserVO User = dao.getUser(usernumber);
+
+		request.setAttribute("User", User);
+
+		RequestDispatcher view = request.getRequestDispatcher("joinFormGet.jsp");
+		view.forward(request, response);
+
 	}
 
 }

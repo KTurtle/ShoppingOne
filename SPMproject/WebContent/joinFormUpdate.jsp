@@ -14,46 +14,52 @@
 	</div>
 
 	<div class="card-body">
-		<form method="post" action="InsertUserCtrl" novalidate>
-			<table class="table">
+		<form action="updateUserCtrl" method="post">
+	
+		<input type="hidden" name="number" class="form-control" value="${User.number }"/>
+		
+			<table class="table" style="width: 800px">
 				<tr>
-					<td>아이디:</td>
-					<td>
-						<input type="text" name="userid" size="50">${userid }
-					</td>
-					
-				</tr>
-				<tr>
-					<td>패스워드:</td>
-					<td>
-						<input type="password" name="password">
+					<td>아이디 : </td>
+					<td align="left">${User.userid }
 					</td>
 				</tr>
 				<tr>
-					<td>이름:</td>
-					<td><input type="text" name="username" size="30" maxlength="10"></td>
+					<td>패스워드 : </td>
+					<td align="left">
+						<input type="text" name="password" class="form-control" value="${User.password }"/>
+					</td>
 				</tr>
 				<tr>
-					<td>전화번호:</td>
-					<td><input type="text" name="tel"></td>
+					<td>이름 : </td>
+					<td align="left">
+						<input type="text" name="username" class="form-control" value="${User.username }"/>
+					</td>
 				</tr>
 				<tr>
-					<td>E-Mail:</td>
-					<td><input type="email" name="email" required></td>
+					<td>전화번호 : </td>
+					<td align="left">
+						<input type="text" name="tel" class="form-control" value="${User.tel }"/>
+					</td>
 				</tr>
 				<tr>
-					<td>주소:</td>
-					<td><input type="text" name="address" placeholder="서울시 "></td>
+					<td>E-Mail : </td>
+					<td align="left">
+						<input type="text" name="email" class="form-control" value="${User.email }"/>
+					</td>
 				</tr>
-				
 				<tr>
-					<td colspan="2">
-						<input type="submit" value="전송"> 
-						<%-- <input type="reset" value="리셋"> --%>
+					<td>주소 : </td>
+					<td align="left">
+						<input type="text" name="address" class="form-control" value="${User.address }"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value=" 글 수정" class="btn btn-primary"/>
 					</td>
 				</tr>
 			</table>
-
 		</form>
 	</div>
 

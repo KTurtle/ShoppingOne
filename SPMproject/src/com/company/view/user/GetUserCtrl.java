@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.company.biz.user.UserVO;
 import com.company.biz.user.impl.UserDAO;
 
-public class UpdateUserBeforeCtrl extends HttpServlet {
+public class GetUserCtrl extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
@@ -25,7 +25,7 @@ public class UpdateUserBeforeCtrl extends HttpServlet {
 
 		request.setAttribute("User", User);
 
-		RequestDispatcher view = request.getRequestDispatcher("joinFormUpdate.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("joinFormGet.jsp");
 		view.forward(request, response);
 
 	}
@@ -36,5 +36,5 @@ public class UpdateUserBeforeCtrl extends HttpServlet {
 		
 		
 	}
-
+	
 }

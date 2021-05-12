@@ -106,11 +106,11 @@ public class UserDAO {
 	         if (rs.next()) {
 	            User = new UserVO();
 
-	            User.setNumber(rs.getInt("number"));
-	            User.setUsertype(rs.getString("usertype"));
+	            User.setNumber(rs.getInt("usernumber"));
+	            User.setUsername(rs.getString("username"));
 	            User.setUserid(rs.getString("userid"));
 	            User.setPassword(rs.getString("password"));
-	            User.setUsername(rs.getString("tel"));
+	            User.setTel(rs.getString("tel"));
 	            User.setEmail(rs.getString("email"));
 	            User.setAddress(rs.getString("address"));
 	            
@@ -133,7 +133,7 @@ public class UserDAO {
 		try {
 			conn = JdbcConnection.getConnection();
 
-			String sql = "update spuser set password = ?, username = ?, tel = ?, email = ?, address = ? where userid = ?";
+			String sql = "update spuser set password = ?, username = ?, tel = ?, email = ?, address = ? where usernumber = ?";
 
 			stmt = conn.prepareStatement(sql);
 
@@ -142,7 +142,7 @@ public class UserDAO {
 			stmt.setString(3, vo.getTel());
 			stmt.setString(4, vo.getEmail());
 			stmt.setString(5, vo.getAddress());
-			stmt.setString(6, vo.getUserid());
+			stmt.setInt(6, vo.getNumber());
 
 			int cnt = stmt.executeUpdate();
 

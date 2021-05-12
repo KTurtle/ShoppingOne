@@ -47,7 +47,8 @@
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
                 <h1 class="h1">My page</h1>
-                <a href="updateUserBeforeCtrl?num=${number }">회원정보수정</a>
+                <button class="btn btn-primary"
+							onclick="location.href='getUserCtrl?num=${number }'">회원정보수정버튼</button>
             </div>
         </div>
         <div class="row">

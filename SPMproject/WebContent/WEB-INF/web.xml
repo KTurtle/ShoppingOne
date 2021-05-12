@@ -59,21 +59,30 @@
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>UpdateUserBeforeCtrl</servlet-name>
-		<servlet-class>com.company.view.user.UpdateUserCtrl</servlet-class>
+		<servlet-name>getUserCtrl</servlet-name>
+		<servlet-class>com.company.view.user.GetUserCtrl</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>UpdateUserBeforeCtrl</servlet-name>
-		<url-pattern>/UpdateUserBeforeCtrl</url-pattern>
+		<servlet-name>getUserCtrl</servlet-name>
+		<url-pattern>/getUserCtrl</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>UpdateUserCtrl</servlet-name>
+		<servlet-name>updateUserBeforeCtrl</servlet-name>
+		<servlet-class>com.company.view.user.UpdateUserBeforeCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateUserBeforeCtrl</servlet-name>
+		<url-pattern>/updateUserBeforeCtrl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>updateUserCtrl</servlet-name>
 		<servlet-class>com.company.view.user.UpdateUserCtrl</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>UpdateUserCtrl</servlet-name>
-		<url-pattern>/UpdateUserCtrl</url-pattern>
+		<servlet-name>updateUserCtrl</servlet-name>
+		<url-pattern>/updateUserCtrl</url-pattern>
 	</servlet-mapping>
 
 <!-- === End User Servlet ================================================ -->
