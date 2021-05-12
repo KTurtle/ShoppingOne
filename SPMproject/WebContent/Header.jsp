@@ -40,13 +40,15 @@ https://templatemo.com/tm-559-zay-shop
 					<i class="fa fa-phone mx-2"></i> <a
 						class="navbar-sm-brand text-light text-decoration-none">010-020-0340</a>
 				</div>
-				<div>
-					<a class="text-light" href="./login.jsp" rel="sponsored">로그인</a>
-							&nbsp;&nbsp;&nbsp; <a class="text-light" href="./joinForm.jsp"
-						rel="sponsored">회원가입</a> &nbsp;&nbsp;&nbsp; <a class="text-light"
-						href="./q&a.jsp" rel="sponsored">Q&A</a> &nbsp;&nbsp;&nbsp;
-
-				</div>
+                <div>
+                    <a class="text-light" href="./login.jsp" rel="sponsored">로그인</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a class="text-light" href="./joinForm.jsp" rel="sponsored">회원가입</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a class="text-light" href="./q&a.jsp" rel="sponsored">Q&A</a>
+                    &nbsp;&nbsp;&nbsp;
+                    
+                </div>
 			</div>
 		</div>
 	</nav>
