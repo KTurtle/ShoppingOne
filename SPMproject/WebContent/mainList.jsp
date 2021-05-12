@@ -44,7 +44,7 @@
                     <!-- login 된 상태 -->
 
                     <c:if test = "${username != null}">
-                        <a class="text-light" href="LogoutCtrl" rel="sponsored">로그아웃</a>
+                        <a class="text-light" href="logoutCtrl" rel="sponsored">로그아웃</a>
                         &nbsp;&nbsp;&nbsp;
                         <a class="text-light" href="#" rel="sponsored">마이페이지</a>
                         &nbsp;&nbsp;&nbsp;
