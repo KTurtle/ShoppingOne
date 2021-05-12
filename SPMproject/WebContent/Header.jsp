@@ -64,7 +64,7 @@ https://templatemo.com/tm-559-zay-shop
 						</a>
 													
 			</div>
-	</class>
+		</class>
 	</div>
 
 	<!-- Header --> 
