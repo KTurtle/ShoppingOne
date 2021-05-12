@@ -59,11 +59,11 @@
     <div>
 		<class class="carousel-inner">
 			<div class="container">
-						<a href="mainList.jsp">
-							<div style="text-align : center;">
-								<img class="img-fluid" src="./assets/img/ascom_logo02.png" width="w-auto" height="w-auto">
-							</div>
-						</a>
+					<a href="mainList.jsp">
+						<div style="text-align : center;">
+							<img class="img-fluid" src="./assets/img/ascom_logo02.png" width="w-auto" height="w-auto">
+						</div>
+					</a>
 			</div>								
 	
 	    </class>
@@ -85,6 +85,9 @@
     
         <ul 
         class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+        
+        	
+                
             <li class="nav-item"><a class="nav-link"
                 href="shopTopPage.jsp">Top</a></li>
                 

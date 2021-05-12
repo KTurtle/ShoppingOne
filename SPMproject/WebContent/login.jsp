@@ -97,14 +97,15 @@ https://templatemo.com/tm-559-zay-shop
             </tr>
             <tr>
             
-               <td colspan="2" align="left">
-                  <input type="submit" value="로그인" class="btn btn-default btn-lg" />
-               </td>             
-               <td>
-               <button type="button" class="btn btn-primary btn-lg" onclick="location='joinForm.jsp'">회원가입</button>
-               	
+            
+             
+               <td width="30%">
+                  <input type="submit" value="로그인" class="btn btn-outline-secondary" />    
+				<td>
+				&nbsp;&nbsp;
+               <button type="button" class="btn btn-outline-primary" onclick="location='joinForm.jsp'">회원가입</button>              	
       			<%-- 누르면 다른 페이지 가서 입력 -> 물고 db 저장 --%>
-               </td>
+              
                
             </tr>
          </table>
