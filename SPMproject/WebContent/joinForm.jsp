@@ -86,7 +86,7 @@ https://templatemo.com/tm-559-zay-shop
 	</div>
 
 	<div class="card-body">
-		<form method="post" action="InsertUserCtrl" novalidate>
+		<form method="post" action="insertUserCtrl" novalidate>
 			<table class="table">
 				<tr>
 					<td>아이디:</td>

@@ -49,13 +49,13 @@
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>InsertUserCtrl</servlet-name>
+		<servlet-name>insertUserCtrl</servlet-name>
 		<servlet-class>com.company.view.user.InsertUserCtrl</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>InsertUserCtrl</servlet-name>
-		<url-pattern>/InsertUserCtrl</url-pattern>
+		<servlet-name>insertUserCtrl</servlet-name>
+		<url-pattern>/insertUserCtrl</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
