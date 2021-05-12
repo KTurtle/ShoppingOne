@@ -38,7 +38,7 @@ public class UpdateUserCtrl extends HttpServlet {
 		UserDAO dao = new UserDAO();
 		dao.updateUser(vo);
 		
-		response.sendRedirect("joinFormUpdate.jsp");
+		response.sendRedirect("joinFormGet.jsp");
 		
 	}
 

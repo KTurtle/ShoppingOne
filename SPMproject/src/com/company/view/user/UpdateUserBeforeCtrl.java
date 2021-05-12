@@ -25,7 +25,7 @@ public class UpdateUserBeforeCtrl extends HttpServlet {
 
 		request.setAttribute("User", User);
 
-		RequestDispatcher view = request.getRequestDispatcher("joinFormUpdate.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("joinFormGet.jsp");
 		view.forward(request, response);
 
 	}
