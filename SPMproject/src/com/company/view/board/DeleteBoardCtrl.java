@@ -20,9 +20,9 @@ public class DeleteBoardCtrl extends HttpServlet {
 		//서블릿은 session이 내장객체가 아니므로 사용하려면 받아와야한다.
 		HttpSession session = request.getSession();
 		
-		String name = (String)session.getAttribute("name");
-		if(name == null){
-			response.sendRedirect("q&a.jsp");  //getBoardListCtrl
+		String username = (String)session.getAttribute("username");
+		if(username == null){
+			response.sendRedirect("q&a.jsp"); 
 			return;
 		}
 		
