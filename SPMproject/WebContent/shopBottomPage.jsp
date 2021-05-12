@@ -180,7 +180,7 @@
         </div>
     </div>
     <!-- End Content -->
-
-</body>
 <jsp:include page="Footer.jsp" />
+</body>
+
 </html>
