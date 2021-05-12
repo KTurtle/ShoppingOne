@@ -15,7 +15,7 @@
 <body>
 	<div id="header" class="card-body">
 		<h1>Q&A 게시판</h1>
-		<!-- <h3>${username }님 환영합니다.. <a href= "logoutCtrl">Logout</a></h3> -->   
+		<!-- <h3>${username }님 환영합니다 <a href= "logoutCtrl">Logout</a></h3> -->   
 	</div>
 
 	<div id="content" class="card-body">
