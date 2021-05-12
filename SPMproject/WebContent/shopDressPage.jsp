@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<jsp:include page="Header.jsp" />
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +8,9 @@
 </head>
 
 <body>
+
+	<jsp:include page="Header.jsp" />
+
     <!-- Modal -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
