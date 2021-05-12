@@ -22,6 +22,8 @@ public class UpdateUserCtrl extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		request.setCharacterEncoding("UTF-8");
+		
 		int usernumber = Integer.parseInt(request.getParameter("number"));
 		String password = request.getParameter("password");
 		String username = request.getParameter("username");
