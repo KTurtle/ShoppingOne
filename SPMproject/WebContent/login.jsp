@@ -14,11 +14,11 @@
          <table class="table" style="width:400px">
             <tr>
                <td>아이디</td>
-               <td><input type="text" class="form-control" name="userid" value="guest" /></td>
+               <td><input type="text" class="form-control" name="userid" value="admin" /></td>
             </tr>
             <tr>
                <td>비밀번호</td>
-               <td><input type="password" name="password" value="guest123"/></td>
+               <td><input type="password" name="password" value="1234"/></td>
             </tr>
             <tr>
                <td colspan="2" align="center">
