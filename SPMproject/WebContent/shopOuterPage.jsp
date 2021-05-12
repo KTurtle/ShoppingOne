@@ -47,16 +47,16 @@
         <div class="row">
 
             <div class="col-lg-3">
-                <h1 class="h2 pb-4">bottom</h1>
+                <h1 class="h2 pb-4">outer</h1>
                 <ul class="list-unstyled templatemo-accordion">
                     <li class="pb-3">
                         <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Skirt
+                            coat
                         </a>
                     </li>
                     <li class="pb-3">
                         <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Pants
+                            jacket
                         </a>
                     </li>
                 </ul>
@@ -110,7 +110,7 @@
                                         <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0">$90.00</p>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                         <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0">$280.00</p>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                                     </li>
                                 </ul>
                                 
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0">$300.00</p>
                             </div>
                         </div>
                     </div>

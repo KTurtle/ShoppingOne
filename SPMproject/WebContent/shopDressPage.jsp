@@ -102,10 +102,9 @@
 								</div>
 							</div>
 							<div class="card-body">
-								<a href="shop-single.jsp" class="h3 text-decoration-none">cute
-							midi dress</a>
-								<ul
-									class="w-100 list-unstyled d-flex justify-content-between mb-0">
+								<a href="shop-single.jsp" class="h3 text-decoration-none">
+								cute midi dress</a>
+								<ulclass="w-100 list-unstyled d-flex justify-content-between mb-0">
 									<li>M/L/X/XL</li>
 									<li class="pt-2"><span
 										class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -119,7 +118,7 @@
 										class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
 									</li>
 								</ul>
-								<p class="text-center mb-0">$250.00</p>
+								<p class="text-center mb-0">70.00</p>
 							</div>
 						</div>
 					</div>
@@ -144,11 +143,9 @@
 								</div>
 							</div>
 							<div class="card-body">
-								<a href="shop-single.jsp" class="h3 text-decoration-none">blue
-							dress
+								<a href="shop-single.jsp" class="h3 text-decoration-none">blue dress
 									</a>
-								<ul
-									class="w-100 list-unstyled d-flex justify-content-between mb-0">
+								<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
 									<li>M/L/X/XL</li>
 									<li class="pt-2"><span
 										class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -162,7 +159,7 @@
 										class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
 									</li>
 								</ul>
-								<p class="text-center mb-0">$250.00</p>
+								<p class="text-center mb-0">$80.00</p>
 							</div>
 						</div>
 					</div>
@@ -184,10 +181,8 @@
 								</div>
 							</div>
 							<div class="card-body">
-								<a href="shop-single.jsp" class="h3 text-decoration-none">black
-									dress</a>
-								<ul
-									class="w-100 list-unstyled d-flex justify-content-between mb-0">
+								<a href="shop-single.jsp" class="h3 text-decoration-none">black dress</a>
+								<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
 									<li>M/L/X/XL</li>
 									<li class="pt-2"><span
 										class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -202,7 +197,7 @@
 									</li>
 								</ul>
 
-								<p class="text-center mb-0">$250.00</p>
+								<p class="text-center mb-0">$140.00</p>
 							</div>
 						</div>
 					</div>

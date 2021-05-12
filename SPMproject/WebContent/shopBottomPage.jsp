@@ -93,7 +93,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_17.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                   
                                 </div>
@@ -110,7 +110,7 @@
                                         <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0">$70.00</p>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                         <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0">$78.00</p>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                                     </li>
                                 </ul>
                                 
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0">$64.00</p>
                             </div>
                         </div>
                     </div>
