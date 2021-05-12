@@ -8,14 +8,15 @@ drop table spbasket;
 drop table board;
 
 create table spuser(
-UserNumber number not null constraints user_UserNumber_PK primary key,
-UserType varchar2(20) default '일반회원',
-UserID varchar2(20) not null,
-Password varchar2(20) not null,
-UserName varchar2(20) not null,
-Tel varchar2(20) not null,
-Email varchar2(30) not null,
-Address varchar2(50) not null);
+	UserNumber 	number 			constraints user_UserNumber_PK primary key,
+	UserType	varchar2(20) 	default '일반회원',
+	UserID 		varchar2(20) 	not null,
+	Password 	varchar2(20) 	not null,
+	UserName 	varchar2(20) 	not null,
+	Tel 		varchar2(20) 	not null,
+	Email 		varchar2(30) 	not null,
+	Address 	varchar2(50)	not null
+);
 
 
 select * from spuser where userid = 'admin' and password = '1234'; 
@@ -82,7 +83,7 @@ select * from sppayment;
 create table board(
 	seq number(5) primary key,
 	title varchar2(200) not null,
-	nickname varchar2(30) not null,
+	username varchar2(30) not null,
 	content varchar2(2000) not null,
 	regdate date default sysdate,
 	cnt number(5) default 0,
@@ -90,25 +91,10 @@ create table board(
 );
 
 --------------------------------------
-insert into board(seq, title, nickname, content, regdate, userid) 
+insert into board(seq, title, username, content, regdate, userid) 
 values(1, '첫 번째 게시물', '홍길동', '첫 번째 게시물 내용.', '2017-02-05', 'hong');
 
-insert into board(seq, title, nickname, content, regdate, userid) 
-values(2, '두 번째 게시물', '홍길동', '두 번째 게시물 내용.', '2017-03-15', 'hong');
-
-insert into board(seq, title, nickname, content, regdate, userid) 
-values(3, '세 번째 게시물', '홍길동', '세 번째 게시물 내용.', '2017-03-03', 'hong');
-
-insert into board(seq, title, nickname, content, regdate, userid) 
-values(4, '네 번째 게시물', '홍길동', '네 번째 게시물 내용.', '2017-05-17', 'hong');
-
-insert into board(seq, title, nickname, content, regdate, userid) 
-values(5, '다섯 번째 게시물', '일지매', '다섯 번째 게시물 내용.', '2017-05-19', 'guest');
-
-insert into board(seq, title, nickname, content, regdate, userid) 
-values(6, '여섯 번째 게시물', '일지매', '여섯 번째 게시물 내용.', '2017-12-25', 'guest');
-
-insert into board(seq, title, nickname, content, regdate, userid) 
+insert into board(seq, title, username, content, regdate, userid) 
 values((select nvl(max(seq), 0)+1 from board), '일곱 번째 게시물', '일지매', '일곱 번째 게시물 내용.', '2017-12-25', 'guest');
 
 select * from board;

@@ -30,12 +30,7 @@
 						<input type="text" name="username" size="10" class="form-control"/>
 					</td>
 				</tr>
-				<tr>
-					<td>아이디</td>
-					<td align="left">
-						<input type="text" name="userid" size="10" class="form-control"/>
-					</td>
-				</tr>
+				
 				<tr>
 					<td>내용</td>
 					<td align="left">
