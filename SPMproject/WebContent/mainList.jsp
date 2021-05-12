@@ -42,6 +42,9 @@ Test1111
                     <a class="text-light" href="./login.jsp" rel="sponsored">로그인</a>
                     &nbsp;&nbsp;&nbsp;
                     <a class="text-light" href="./joinForm.jsp" rel="sponsored">회원가입</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a class="text-light" href="./q&a.jsp" rel="sponsored">Q&A</a>
+                    &nbsp;&nbsp;&nbsp;
                     
                 </div>
             </div>
