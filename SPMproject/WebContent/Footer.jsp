@@ -1,19 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <!-- Start Footer -->
 <footer class="bg-dark" id="tempaltemo_footer">
     <div class="container">
         <div class="row">
 
             <div class="col-md-3 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light logo">╪Нгн╦Тюл╦╖</h2>
+                <h2 class="h2 text-success border-bottom pb-3 border-light logo">Л┤╪М∙▒К╙╟Л²╢К╕└</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        ╪Нгн╦Тю╖д║
+                        Л┤╪М∙▒К╙╟Л°└Л╧≤
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
@@ -27,31 +26,31 @@
             </div>
 
             <div class="col-md-3 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">╟Хаба╓╨╦</h2>
+                <h2 class="h2 text-light border-bottom pb-3 border-light">ЙЁ└Л╒▄Л═∙КЁ╢</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none">╟Ф╠Бю╨гЮ 000-1234</a></li>
-                    <li><a class="text-decoration-none">╟╜Ё╡ю╨гЮ 000-9876</a></li>
-                    <li><a class="text-decoration-none">©╧╠щаж╦М : х╚╠Ф╣©</a></li>
-                    <li><a class="text-decoration-none">(аж)╪Нгн╦Тюл╦╖</a></li>
+                    <li><a class="text-decoration-none">Й╡╫Й╦╟Л²─М√┴ 000-1234</a></li>
+                    <li><a class="text-decoration-none">Й╟∙К┌╗Л²─М√┴ 000-9876</a></li>
+                    <li><a class="text-decoration-none">Л≤┬Й╦┬Лё╪К╙┘ : М≥█Й╦╦К▐≥</a></li>
+                    <li><a class="text-decoration-none">(Лё╪)Л┤╪М∙▒К╙╟Л²╢К╕└</a></li>
                 </ul>
             </div>
 
             <div class="col-md-3 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">ец╧Ха╓╨╦</h2>
+                <h2 class="h2 text-light border-bottom pb-3 border-light">М┐²К╟╟Л═∙КЁ╢</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none">╧Х╪шец╧Х╩Г</a></li>
+                    <li><a class="text-decoration-none">К╟╟Л├║М┐²К╟╟Л┌╛</a></li>
                 </ul>
             </div>
 
             <div class="col-md-3 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">╟М╟╢╪╬ем</h2>
+                <h2 class="h2 text-light border-bottom pb-3 border-light">ЙЁ═Й╟²Л└╪М└╟</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
                         <a class="text-decoration-none">010-020-0340</a>
                     </li>
-                    <li><a class="text-decoration-none">фРюо : 9:00 ~ 18:00</a></li>
-                    <li><a class="text-decoration-none">аж╦╩ : 10:00 ~ 14:00</a></li>
+                    <li><a class="text-decoration-none">М▐┴Л²╪ : 9:00 ~ 18:00</a></li>
+                    <li><a class="text-decoration-none">Лё╪К╖░ : 10:00 ~ 14:00</a></li>
                 </ul>
             </div>
             
