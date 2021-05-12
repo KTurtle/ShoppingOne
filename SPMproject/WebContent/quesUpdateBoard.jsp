@@ -10,7 +10,7 @@
 <body>
 	<div align="center" style="margin: auto auto" class="card-body">
 		<h3>
-			글 수정............<a href="logoutCtrl">LOG-OUT</a>
+			글 수정....<a href="logoutCtrl">LOG-OUT</a>
 		</h3>
 		<hr>
 		<form action="updateBoardCtrl" method="post">

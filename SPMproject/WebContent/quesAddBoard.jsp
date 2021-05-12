@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:if test ="${empty name}">
+<%--<c:if test ="${empty name}">
 	<c:redirect url="login.jsp" />
-</c:if>
+</c:if>  --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +13,7 @@
 <body>
 	<div align="center" style="margin: auto auto" class="card-body">
 		<h3>
-			${name }님. 새글 등록하기............<a href="loginCtrl">LOG-OUT</a>
+			${name }님. 새글 등록하기..<a href="loginCtrl">LOG-OUT</a>
 		</h3>
 		<hr>
 		<form action="addBoardCtrl" method="post">
@@ -27,7 +27,13 @@
 				<tr>
 					<td>작성자</td>
 					<td align="left">
-						<input type="text" name="nickname" size="10" class="form-control"/>
+						<input type="text" name="username" size="10" class="form-control"/>
+					</td>
+				</tr>
+				<tr>
+					<td>아이디</td>
+					<td align="left">
+						<input type="text" name="userid" size="10" class="form-control"/>
 					</td>
 				</tr>
 				<tr>

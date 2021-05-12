@@ -31,7 +31,7 @@ public class UpdateBoardBeforeCtrl extends HttpServlet {
 		
 		request.setAttribute("board", board);
 
-		RequestDispatcher view = request.getRequestDispatcher("updateBoard.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("quesUpdateBoard.jsp");
 		view.forward(request, response);
 
 	}

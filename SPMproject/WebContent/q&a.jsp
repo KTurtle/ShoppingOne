@@ -8,13 +8,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>GetBoardList</title>
+<title>Q&A </title>
 <link rel="stylesheet" type="text/css"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 	<div id="header" class="card-body">
-		<h1>Board List</h1>
+		<h1>Q&A 게시판</h1>
 		<!-- <h3>${username }님 환영합니다.. <a href= "logoutCtrl">Logout</a></h3> -->   
 	</div>
 
@@ -44,7 +44,7 @@
 		
 			<tr>
 				<td colspan="5">
-					<a href="addBoard.jsp">새 게시물 작성</a>
+					<a href="quesAddBoard.jsp">새 게시물 작성</a>
 				</td>
 			</tr>
 			</tbody>

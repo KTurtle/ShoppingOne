@@ -56,6 +56,59 @@
      <url-pattern>/InsertUserCtrl</url-pattern>   
   </servlet-mapping>
 
+<servlet>
+		<servlet-name>updateBoardCtrl</servlet-name>
+		<servlet-class>com.company.view.board.UpdateBoardCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateBoardCtrl</servlet-name>
+		<url-pattern>/updateBoardCtrl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>updateBoardBeforeCtrl</servlet-name>
+		<servlet-class>com.company.view.board.UpdateBoardBeforeCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateBoardBeforeCtrl</servlet-name>
+		<url-pattern>/updateBoardBeforeCtrl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addBoardCtrl</servlet-name>
+		<servlet-class>com.company.view.board.AddBoardCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addBoardCtrl</servlet-name>
+		<url-pattern>/addBoardCtrl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>deleteBoardCtrl</servlet-name>
+		<servlet-class>com.company.view.board.DeleteBoardCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteBoardCtrl</servlet-name>
+		<url-pattern>/deleteBoardCtrl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getBoardCtrl</servlet-name>
+		<servlet-class>com.company.view.board.GetBoardCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getBoardCtrl</servlet-name>
+		<url-pattern>/getBoardCtrl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getBoardListCtrl</servlet-name>
+		<servlet-class>com.company.view.board.GetBoardListCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getBoardListCtrl</servlet-name>
+		<url-pattern>/getBoardListCtrl</url-pattern>
+	</servlet-mapping>
 
 
 </web-app>

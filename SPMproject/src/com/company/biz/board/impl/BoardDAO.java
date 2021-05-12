@@ -94,13 +94,14 @@ public class BoardDAO {
 
    // 게시물 입력
    public int addBoard(BoardVO vo) {
+	   System.out.println(vo);
 
       int cnt = 0;
 
       try {
          conn = JdbcConnection.getConnection();
          
-         String sql = "insert into board (seq, title, nickname, content) "
+         String sql = "insert into board (seq, title, username, content) "
                + "values( (select nvl(max(seq), 0) + 1 from BOARD), ?, ?, ?)";
 
          stmt = conn.prepareStatement(sql);
