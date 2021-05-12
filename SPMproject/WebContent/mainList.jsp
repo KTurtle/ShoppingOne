@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>쇼핑몰이름</title>
+    <title>쇼핑몰이름</title> <!-- 시바람 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
