@@ -26,7 +26,7 @@ public class GetBoardCtrl extends HttpServlet {
 		
 		request.setAttribute("board", board);
 
-		RequestDispatcher view = request.getRequestDispatcher("getBoard.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("q&a.jsp");
 		view.forward(request, response);
 
 	}
