@@ -22,7 +22,7 @@ public class DeleteBoardCtrl extends HttpServlet {
 		
 		String name = (String)session.getAttribute("name");
 		if(name == null){
-			response.sendRedirect("q&a.jsp");
+			response.sendRedirect("q&a.jsp");  //getBoardListCtrl
 			return;
 		}
 		
@@ -42,7 +42,7 @@ public class DeleteBoardCtrl extends HttpServlet {
 		if(cnt != 0) {
 			response.sendRedirect("getBoardListCtrl");
 		}else {
-			response.sendRedirect("ques/quesIndex.jsp");
+			response.sendRedirect("quesIndex.jsp");
 		}
 		
 			
