@@ -89,7 +89,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>deleteBoardCtrl</servlet-name>
-		<url-pattern>/deleteBoardCtrl</url-pattern>
+		<url-pattern>/ques/deleteBoardCtrl</url-pattern>
 	</servlet-mapping>
 
 	<servlet>

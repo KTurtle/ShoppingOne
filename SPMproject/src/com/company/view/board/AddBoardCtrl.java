@@ -42,7 +42,7 @@ public class AddBoardCtrl extends HttpServlet {
 		if(cnt != 0) {
 			response.sendRedirect("getBoardListCtrl");
 		}else {
-			response.sendRedirect("quesIndex.jsp");
+			response.sendRedirect("ques/quesIndex.jsp");
 		}
 		
 
