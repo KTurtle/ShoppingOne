@@ -18,7 +18,7 @@
             </tr>
             <tr>
                <td>비밀번호</td>
-               <td><input type="password" name="password" value="1234"/></td>
+               <td><input type="password" class="form-control" name="password" value="1234"/></td>
             </tr>
             <tr>
                <td colspan="2" align="center">
