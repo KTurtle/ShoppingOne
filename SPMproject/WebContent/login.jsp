@@ -86,7 +86,7 @@ https://templatemo.com/tm-559-zay-shop
       <h2><b>로그인</b></h2>
       <hr>
       <form method="post" action="loginCtrl">
-         <table class="table" style="width:400px">
+         <table class="table" style="width:700px">
             <tr>
                <td>아이디</td>
                <td><input type="text" class="form-control" name="userid" value="admin" /></td>
@@ -98,10 +98,11 @@ https://templatemo.com/tm-559-zay-shop
             <tr>
             
                <td colspan="2" align="left">
-                  <input type="submit" value="로그인" class="btn btn-primary" />
+                  <input type="submit" value="로그인" class="btn btn-default btn-lg" />
                </td>             
                <td>
-               	 <button class="btn btn-primary" onclick="location='joinForm.jsp'">회원가입</button>
+               <button type="button" class="btn btn-primary btn-lg" onclick="location='joinForm.jsp'">회원가입</button>
+               	
       			<%-- 누르면 다른 페이지 가서 입력 -> 물고 db 저장 --%>
                </td>
                
