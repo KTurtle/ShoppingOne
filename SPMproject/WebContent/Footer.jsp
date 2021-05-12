@@ -8,11 +8,11 @@
         <div class="row">
 
             <div class="col-md-3 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light logo">쇼핑몰이름</h2>
+                <h2 class="h2 text-success border-bottom pb-3 border-light logo">ASCOM</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        쇼핑몰위치
+                        경기도 수원시 권선구 금호로 푸른빌 12층 
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
@@ -55,10 +55,9 @@
             </div>
             
             <div>
-            <hr>
-            <hr>
+            	<hr>
+            	<hr>
             </div>
-
         </div>
     </div>
 
