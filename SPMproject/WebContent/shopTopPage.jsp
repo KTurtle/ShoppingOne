@@ -1,12 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
 <head>
 	<title>TopPage</title>
 
-	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="assets/img/apple-icon.png">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
