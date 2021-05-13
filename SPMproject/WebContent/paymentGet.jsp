@@ -54,6 +54,7 @@
       				<h3 class="mb-md-5">결제내역확인</h3>
     			</div>
 			
+				<form action="updateBoardCtrl" method="post">
 				<div class="mb-md-5">
 		      	<table class="text-dark col-lg-auto">
 		      	
@@ -73,6 +74,28 @@
 			        
 			        <c:forEach var="payment" items="${paymentList }">
 						<tr class="border">
+							<td>
+								<input type="radio" name="paymentid" class="form-control border text-center p-2 mx-3" value="${payment.paymentid }"/>
+							</td>
+							<td>
+								<input type="radio" name="usernumber" class="form-control border text-center p-2 mx-3" value="${payment.usernumber }"/>
+							</td>
+							<td>
+								<input type="radio" name="productid" class="form-control border text-center p-2 mx-3" value="${payment.productid }"/>
+							</td>
+							<td>
+								<input type="radio" name="cnt" class="form-control border text-center p-2 mx-3" value="${payment.cnt }"/>
+							</td>
+							<td>
+								<input type="radio" name="address" class="form-control border text-center p-2 mx-3" value="${payment.address }"/>
+							</td>
+							<td>
+								<input type="radio" name="tel" class="form-control border text-center p-2 mx-3" value="${payment.tel }"/>
+							</td>
+							<td>
+								<input type="radio" name="CCnumber" class="form-control border text-center p-2 mx-3" value="${payment.CCnumber }"/>
+							</td>
+							<!-- 
 							<td class="border text-center p-2 mx-3">${payment.paymentid }</td>
 							<td class="border text-center p-2 mx-3">${payment.usernumber }</td>
 							<td class="border text-center p-2 mx-3">${payment.productid }</td>
@@ -80,6 +103,7 @@
 							<td class="border text-center p-2 mx-3">${payment.address }</td>
 							<td class="border text-center p-2 mx-3">${payment.tel }</td>
 							<td class="border text-center p-2 mx-3">${payment.CCnumber }</td>
+							 -->
 						</tr>
 					</c:forEach>
 			      
@@ -92,6 +116,7 @@
 		         	</tbody>
 		      	</table>
 		   		</div>
+		   		</form>
 			</div>
 			
 		</div>
