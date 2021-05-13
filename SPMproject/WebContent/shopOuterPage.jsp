@@ -159,17 +159,15 @@
                                 </ul>
                                 
                                 <p class="text-center mb-0">$300.00</p>
-                            </div>
+                    		 </div>
                         </div>
                     </div>
-                    
-                    
             </div>
-
         </div>
     </div>
     <!-- End Content -->
-
-</body>
+    </div>
 <jsp:include page="Footer.jsp" />
+</body>
+
 </html>

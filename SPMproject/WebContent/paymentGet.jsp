@@ -34,7 +34,7 @@
 	<div class="container py-5">
 		<div class="row">
 
-			<div class="col-lg-3">
+			<div class="col-lg-2">
 				
 				<ul class="list-unstyled templatemo-accordion">
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
@@ -49,37 +49,37 @@
 				
 			</div>
 			
-			<div class="col-lg-9">
+			<div class="col-lg-auto">
 				<div>
-      				<h1 class="ms-md-2 mb-md-5">결제내역확인</h1>
+      				<h3 class="mb-md-5">결제내역확인</h3>
     			</div>
 			
-				<div class="ms-md-2 mb-md-5">
-		      	<table class="text-dark col-lg-9">
+				<div class="mb-md-5">
+		      	<table class="text-dark col-lg-auto">
 		      	
-		      		<thead class="col-lg-9">
-						<tr class="col-lg-9">
-							<th class="me-md-5 col-lg-2">결제번호&nbsp;&nbsp;</th>
-							<th class="me-md-5">회원번호</th>
-							<th class="me-md-5">상품번호</th>
-							<th class="me-md-5">주문수량</th>
-							<th class="me-md-5">배송지</th>
-							<th class="me-md-5">전화번호</th>
-							<th class="me-md-5">신용카드번호</th>
+		      		<thead>
+						<tr class="border">
+							<th class="col-lg-2 border" align="center">결제번호</th>
+							<th class="col-lg-2 border">회원번호</th>
+							<th class="col-lg-2 border">상품번호</th>
+							<th class="col-lg-2 border">주문수량</th>
+							<th class="col-lg-2 border">배송지</th>
+							<th class="col-lg-2 border">전화번호</th>
+							<th class="col-lg-2 border">신용카드번호</th>
 						</tr>
 					</thead>
 		      	
 			        <tbody>
 			        
 			        <c:forEach var="payment" items="${paymentList }">
-						<tr>
-							<td>${payment.paymentid }</td>
-							<td>${payment.usernumber }</td>
-							<td>${payment.productid }</td>
-							<td>${payment.cnt }</td>
-							<td>${payment.address }</td>
-							<td>${payment.tel }</td>
-							<td>${payment.CCnumber }</td>
+						<tr class="border">
+							<td class="border" align="center">${payment.paymentid }</td>
+							<td class="border" align="center">${payment.usernumber }</td>
+							<td class="border" align="center">${payment.productid }</td>
+							<td class="border" align="center">${payment.cnt }</td>
+							<td class="border" align="center">${payment.address }</td>
+							<td class="border" align="center">${payment.tel }</td>
+							<td class="border" align="center">${payment.CCnumber }</td>
 						</tr>
 					</c:forEach>
 			      
