@@ -50,15 +50,14 @@
                 <h1 class="h2 pb-4">Top</h1>
                 <ul class="list-unstyled templatemo-accordion">
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopTshirt.jsp'">
                             T-shirt
                         </a>
                     </li>
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopBloues.jsp'">
-                            Bloues
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopBlouse.jsp'">
+                            Blouse
                         </a>
-                        <a href="#" onclick="location.href='shopBloues.jsp'">SNV</a>
                     </li>
                 </ul>
             </div>
