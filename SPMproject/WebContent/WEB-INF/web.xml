@@ -147,6 +147,16 @@
 
 <!-- == Start Payment Servlet ============================================== -->
 
+	<servlet>
+		<servlet-name>viewImage</servlet-name>
+		<servlet-class>com.testing.image.ViewImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewImage</servlet-name>
+		<url-pattern>/viewImage</url-pattern>
+	</servlet-mapping>
+
+
 
 <!-- === End Payment Servlet =============================================== -->
 
