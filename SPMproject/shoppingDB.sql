@@ -39,21 +39,21 @@ Price number not null,/*상품가격*/
 Stock number not null,/*상품재고*/
 ProductURL varchar2(80) not null);/*해당상품 메인이미지*/
 
-insert into spproduct values('T00000001','TOP','기본와인반팔티','40수 코마사 고급면 종류인 코마사를 사용해 부드러운감촉의 티셔츠',15000,1000,'shop_14.jpg');
-insert into spproduct values('T00000002','TOP','기본린넨긴팔','린넨소재를 사용해 통기성이 좋은 여름용 기본 긴팔',20000,1000,'shop_11.jpg');
-insert into spproduct values('T00000003','TOP','매듭반팔블라우스','실크소재를 혼합해 부드러운 감촉의 리본디테일이 살아있는 블라우스',40000,1000,'shop_16.jpg');
-insert into spproduct values('B00000001','BOTTOM','핑크미디스커트','더티핑크 색상으로 세련된 색상의 미디길이 스커트',50000,1000,'shop_17.jpg');
-insert into spproduct values('B00000002','BOTTOM','브라운카키팬츠','카키색에 브라운톤을 더해 차분한 색감의 팬츠',40000,1000,'shop_05.jpg');
-insert into spproduct values('B00000003','BOTTOM','블랙와이드팬츠','블랙색상의 시원한 소재감의 와이드팬츠',25000,1000,'shop_12.jpg');
-insert into spproduct values('D00000001','DRESS','내추럴원피스','내추럴한 색상의 원피스',55000,1000,'shop_02.jpg');
-insert into spproduct values('D00000002','DRESS','네이비드레스','네이비색상의 주름디테일 드레스',65000,1000,'shop_03.jpg');
-insert into spproduct values('D00000003','DRESS','블랙드레스','자수 디테일의 블랙 드레스',75000,1000,'shop_06.jpg');
-insert into spproduct values('O00000001','OUTER','화이트아우터','보온이 뛰어난 아우터',85000,1000,'shop_13.jpg');
-insert into spproduct values('O00000002','OUTER','블랙자켓','심플한 기본 자켓',105000,1000,'shop_05.jpg');
-insert into spproduct values('O00000003','OUTER','블루자켓','시원한 소재감의 블루자켓',115000,1000,'shop_07.jpg');
-insert into spproduct values('S00000001','SHOES','패턴힐','화려한 패턴의 힐',55000,1000,'shop_15.jpg');
-insert into spproduct values('S00000002','SHOES','화이트운동화','뒤쪽 패턴이 포인트인 흰색 운동화',155000,1000,'banner_img_01.jpg');
-insert into spproduct values('S00000003','SHOES','블랙운동화','스포티한 블랙 운동화',85000,1000,'category_img_02.jpg');
+insert into spproduct values('T00000001','Top','기본와인반팔티','40수 코마사 고급면 종류인 코마사를 사용해 부드러운감촉의 티셔츠',15000,1000,'shop_14.jpg');
+insert into spproduct values('T00000002','Top','기본린넨긴팔','린넨소재를 사용해 통기성이 좋은 여름용 기본 긴팔',20000,1000,'shop_11.jpg');
+insert into spproduct values('T00000003','Top','매듭반팔블라우스','실크소재를 혼합해 부드러운 감촉의 리본디테일이 살아있는 블라우스',40000,1000,'shop_16.jpg');
+insert into spproduct values('B00000001','Bottom','핑크미디스커트','더티핑크 색상으로 세련된 색상의 미디길이 스커트',50000,1000,'shop_17.jpg');
+insert into spproduct values('B00000002','Bottom','브라운카키팬츠','카키색에 브라운톤을 더해 차분한 색감의 팬츠',40000,1000,'shop_05.jpg');
+insert into spproduct values('B00000003','Bottom','블랙와이드팬츠','블랙색상의 시원한 소재감의 와이드팬츠',25000,1000,'shop_12.jpg');
+insert into spproduct values('D00000001','Dress','내추럴원피스','내추럴한 색상의 원피스',55000,1000,'shop_02.jpg');
+insert into spproduct values('D00000002','Dress','네이비드레스','네이비색상의 주름디테일 드레스',65000,1000,'shop_03.jpg');
+insert into spproduct values('D00000003','Dress','블랙드레스','자수 디테일의 블랙 드레스',75000,1000,'shop_06.jpg');
+insert into spproduct values('O00000001','Outer','화이트아우터','보온이 뛰어난 아우터',85000,1000,'shop_13.jpg');
+insert into spproduct values('O00000002','Outer','블랙자켓','심플한 기본 자켓',105000,1000,'shop_05.jpg');
+insert into spproduct values('O00000003','Outer','블루자켓','시원한 소재감의 블루자켓',115000,1000,'shop_07.jpg');
+insert into spproduct values('S00000001','Shoes','패턴힐','화려한 패턴의 힐',55000,1000,'shop_15.jpg');
+insert into spproduct values('S00000002','Shoes','화이트운동화','뒤쪽 패턴이 포인트인 흰색 운동화',155000,1000,'banner_img_01.jpg');
+insert into spproduct values('S00000003','Shoes','블랙운동화','스포티한 블랙 운동화',85000,1000,'category_img_02.jpg');
 
 
 /*앞으로 몇 개 더 추가할 예정*/
