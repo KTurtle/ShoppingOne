@@ -112,7 +112,7 @@
 										class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
 									</li>
 								</ul>
-								<p class="text-center mb-0">70.00</p>
+								<p class="text-center mb-0">$70.00</p>
 							</div>
 						</div>
 					</div>

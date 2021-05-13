@@ -164,27 +164,8 @@
                                 <h1 class="h1 text-success"><b>ASCOM</b> <hr> NEW PRODUCT</h1>
                                 <h3 class="h2">White Sneakers</h3>
                                 <p>
-                                    편안한 착화감과 가벼운 무게감을 가진 White Sneakers가 새로 입고 되었습니다.
-                                    입고된 White Sneakers는  <a rel="sponsored" class="text-success" href="shopShoesPage.jsp" target="_blank">이 링크</a> 에서 구매가능합니다.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="../assets/img/banner_img_02.jpg" alt=""><!-- assets잘찾기...ㅜ -->
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1 text-success"><b>저희 ASCOM은</b> </h1>
-                                <h3 class="h2">항상 빠른 배송, 높은 품질 제공</h3>
-                                <p>
-                                    You are permitted to use this Zay CSS template for your commercial websites. 
-                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                    편안한 착화감과 가벼운 White Sneakers가<br> 새로 입고 되었습니다.
+                                    <br>입고된 White Sneakers는  <a rel="sponsored" class="text-success" href="shopShoesPage.jsp" target="_blank">이 링크</a> 에서 구매가능합니다.
                                 </p>
                             </div>
                         </div>
@@ -192,6 +173,28 @@
                 </div>
             </div>
             
+            
+         
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/deli.png" alt=""><!-- assets잘찾기...ㅜ -->
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1 text-success"><b>ASCOM은</b> </h1>
+                                	<h3 class="h2">빠른 배송, 높은 품질 제공을 <br>약속드립니다.</h3>
+                                <p>
+                                    You are permitted to use this Zay CSS template for your commercial websites. 
+                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+           
         </div>
         <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
             <i class="fas fa-chevron-left"></i>
@@ -199,7 +202,7 @@
         <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
             <i class="fas fa-chevron-right"></i>
         </a>
-    </div>
+    </div>  
     <!-- 좌우이동배너01 -->
 
 
@@ -209,10 +212,9 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Featured Product</h1>
+                    <h1 class="h1">Best Seller</h1>
                     <p>
-                        Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident.
+                        
                     </p>
                 </div>
             </div>
@@ -220,7 +222,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.jsp">
-                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
+                            <img src="./assets/img/shop_03.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -228,23 +230,23 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">$240.00</li>
+                                <li class="text-muted text-right">$80.00</li>
                             </ul>
-                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">Gym Weight</a>
+                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">Blue Dress</a>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
+                                상세페이지 상품 설명
                             </p>
-                            <p class="text-muted">Reviews (24)</p>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.jsp">
-                            <img src="./assets/img/feature_prod_02.jpg" class="card-img-top" alt="...">
+                            <img src="./assets/img/shop_16.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -252,23 +254,23 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">$480.00</li>
+                                <li class="text-muted text-right">$30.00</li>
                             </ul>
-                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">Cloud Nike Shoes</a>
+                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">White Blouse</a>
                             <p class="card-text">
-                                Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.
+                                상세페이지 상품 설명
                             </p>
-                            <p class="text-muted">Reviews (48)</p>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.jsp">
-                            <img src="./assets/img/feature_prod_03.jpg" class="card-img-top" alt="...">
+                            <img src="./assets/img/shop_05.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -279,13 +281,13 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">$360.00</li>
+                                <li class="text-muted text-right">$280.00</li>
                             </ul>
-                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">Summer Addides Shoes</a>
+                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">Black Jacket</a>
                             <p class="card-text">
-                                Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.
+                               상세페이지 상품 설명
                             </p>
-                            <p class="text-muted">Reviews (74)</p>
+                           
                         </div>
                     </div>
                 </div>
