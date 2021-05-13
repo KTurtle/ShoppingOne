@@ -46,11 +46,11 @@ insert into spproduct values('T00001234','TOP','반팔티','시원함',7900,100)
 select * from spproduct;
 --------------------------------상품DB끝----------------------------------
 create table spbasket(
-BasketID number constraints basket_BasketID_PK primary key,
-UserNumber number not null,
-ProductID varchar2(20) not null,
-cnt number not null,
-price number not null);
+	BasketID number constraints basket_BasketID_PK primary key,
+	UserNumber number not null,
+	ProductID varchar2(20) not null,
+	cnt number not null,
+	price number not null);
 
 
 
