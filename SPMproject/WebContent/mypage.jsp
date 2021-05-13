@@ -55,20 +55,20 @@
         </div>
         <div class="row">
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="userinfoed.jsp"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <!-- <h5 class="text-center mt-3 mb-3">회원정보수정</h5> -->
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="userinfoed.jsp"><img src="./assets/img/user.png" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">회원정보수정</h5>
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="basket.jsp"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <!-- <h5 class="text-center mt-3 mb-3">장바구니</h5> -->
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="basket.jsp"><img src="./assets/img/sb.JPG" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">장바구니</h5>
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="payment.jsp"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <!-- <h5 class="text-center mt-3 mb-3">결제내역</h5> -->
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="payment.jsp"><img src="./assets/img/sr.JPG" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">결제내역</h5> 
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="getBoardListCtrl"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <!-- <h5 class="text-center mt-3 mb-3">Q&A</h5> -->
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="getBoardListCtrl"><img src="./assets/img/qa.JPG" class="rounded-circle img-fluid border"></a>
+                 <h5 class="text-center mt-3 mb-3">Q&A</h5> 
             </div>
         </div>
     </section>
