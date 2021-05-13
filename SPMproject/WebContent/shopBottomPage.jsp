@@ -90,6 +90,13 @@
                 </div>
 
                 <!-- ----------------------------------------------- -->
+                
+                <div>
+                	<img type="summit" src="assets/img/shop_01.jpg" 
+                		onclick="location.href='viewImage?image1=assets/img/shop_01.jpg'">
+                </div>
+                
+                
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
@@ -99,8 +106,12 @@
                                 <input type="image" class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg" value="assets/img/shop_01.jpg" 
                                 	onclick="viewImage" name="image1" alt="button">
                                 </form>
-                                 -->
+                                
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
+                                
+                                 -->
+                                 <img type="summit" src="assets/img/shop_01.jpg" value="assets/img/shop_01.jpg" onclick="location.href='viewImage'">
+                                
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
