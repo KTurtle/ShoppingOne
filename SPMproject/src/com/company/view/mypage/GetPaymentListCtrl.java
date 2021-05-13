@@ -1,6 +1,7 @@
 package com.company.view.mypage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -19,13 +20,12 @@ public class GetPaymentListCtrl extends HttpServlet {
 			throws ServletException, IOException {
 
 		int num = Integer.parseInt(request.getParameter("num"));
-
+		
 		PaymentDAO dao = new PaymentDAO();
-		PaymentVO payment = dao.getPayment(num);
+		ArrayList<PaymentVO> paymentList = dao.getPaymentList(num);
 
-		request.setAttribute("Payment", payment);
+		request.setAttribute("paymentList", paymentList);
 
-		System.out.println(payment.getProductid());
 		RequestDispatcher view = request.getRequestDispatcher("paymentGet.jsp");
 		view.forward(request, response);
 

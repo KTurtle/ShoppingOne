@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,15 +35,18 @@
 		<div class="row">
 
 			<div class="col-lg-3">
-				<h1 class="h2 pb-4">회원정보수정</h1>
+				
 				<ul class="list-unstyled templatemo-accordion">
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
+						href="./getUserCtrl?num=${paymentList[0].usernumber }"> 회원정보수정 </a></li>
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="#"> 장바구니 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-						href="#"> 결제내역 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3 "
+						href="./getPaymentListCtrl?num=${paymentList[0].usernumber }"><b> 결제내역 </b></a></li>
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="./q&a.jsp"> Q&A </a></li>
 				</ul>
+				
 			</div>
 			
 			<div class="col-lg-9">
@@ -52,51 +56,46 @@
 			
 				<div class="ms-md-2 mb-md-5">
 		      	<table class="text-dark col-lg-9">
-			         <tbody>
-			            <tr class="border-bottom">
-			               <td>결제번호</td>
-			               <td>${payment.paymentid }</td>
-			            </tr>
-			            <tr class="border-bottom">
-			               <td>회원번호</td>
-			               <td>${payment.usernumber }</td>
-			            </tr>
-			            <tr class="border-bottom">
-			               <td>상품번호</td>
-			               <td>${payment.productid }</td>
-			            </tr>
-			            <tr class="border-bottom">
-			               <td>주문수량</td>
-			               <td>${payment.cnt }</td>
-			            </tr>
-			            <tr class="border-bottom">
-			               <td>배송지</td>
-			               <td>${payment.address }</td>
-			            </tr>
-			            <tr class="border-bottom">
-			               <td>전화번호</td>
-			               <td>${payment.tel }</td>
-			            </tr>
-			            <tr class="border-bottom">
-			               <td>신용카드번호</td>
-			               <td>${payment.CCnumber }</td>
-			            </tr>
+		      	
+		      		<thead class="col-lg-9">
+						<tr class="col-lg-9">
+							<th class="me-md-5 col-lg-2">결제번호&nbsp;&nbsp;</th>
+							<th class="me-md-5">회원번호</th>
+							<th class="me-md-5">상품번호</th>
+							<th class="me-md-5">주문수량</th>
+							<th class="me-md-5">배송지</th>
+							<th class="me-md-5">전화번호</th>
+							<th class="me-md-5">신용카드번호</th>
+						</tr>
+					</thead>
+		      	
+			        <tbody>
+			        
+			        <c:forEach var="payment" items="${paymentList }">
+						<tr>
+							<td>${payment.paymentid }</td>
+							<td>${payment.usernumber }</td>
+							<td>${payment.productid }</td>
+							<td>${payment.cnt }</td>
+							<td>${payment.address }</td>
+							<td>${payment.tel }</td>
+							<td>${payment.CCnumber }</td>
+						</tr>
+					</c:forEach>
 			      
-			            <tr>
-			               <td colspan="2"><button class="btn btn-primary mt-md-5" 
-			                 onclick="location.href='#'">결제취소</button>
-			               </td>
-			            </tr>
+		            <tr>
+		               <td colspan="2"><button class="btn btn-primary mt-md-5" 
+		                 onclick="location.href='#'">결제취소</button>
+		               </td>
+		            </tr>
+		            
 		         	</tbody>
 		      	</table>
 		   		</div>
-			
-			
 			</div>
 			
 		</div>
 	</div>
-
 
 </body>
 </html>

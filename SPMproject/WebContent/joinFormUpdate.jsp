@@ -34,13 +34,14 @@
 		<div class="row">
 
 			<div class="col-lg-3">
-				<h1 class="h2 pb-4">회원정보수정</h1>
 				<ul class="list-unstyled templatemo-accordion">
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
+						href="./getUserCtrl?num=${User.number }"> 회원정보수정 </a></li>
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="#"> 장바구니 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-						href="#"> 결제내역 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
+						href="./getPaymentListCtrl?num=${User.number }"> 결제내역 </a></li>
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="./q&a.jsp"> Q&A </a></li>
 				</ul>
 			</div>
