@@ -85,14 +85,12 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_15.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                   <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">brown high heels</a>
+                                <a href="shop-single.html" class="h3 text-decoration-none">Brown High Heels</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0" >
                                     <li>240</li>
                                     <li class="pt-2">

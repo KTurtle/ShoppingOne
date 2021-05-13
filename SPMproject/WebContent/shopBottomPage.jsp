@@ -56,7 +56,7 @@
                         </a>
                     </li>
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopSkirt.jsp'">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopPants.jsp'">
                             Pants
                         </a>
                     </li>
@@ -86,16 +86,16 @@
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
 
-                                 <img type="summit" src="assets/img/shop_01.jpg">
+                                 <img type="summit" src="assets/img/shop_17.jpg">
                                 
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white mt-2" href="viewImage?image1=assets/img/shop_01.jpg"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewImage?image1=assets/img/shop_17.jpg"><i class="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">purple skirt</a>
+                                <a href="shop-single.html" class="h3 text-decoration-none">Purple Skirt</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>Free Size</li>
                                     <li class="pt-2">

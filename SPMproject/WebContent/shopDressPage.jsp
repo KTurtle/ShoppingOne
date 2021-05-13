@@ -92,9 +92,7 @@
 							<img class="card-img rounded-0 img-fluid" src="assets/img/shop_02.jpg">
 								<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
 							<ul class="list-unstyled">
-                                      <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                      <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                      <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                      <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-eye"></i></a></li>
                             </ul>
 								</div>
 							</div>
@@ -129,12 +127,8 @@
 									src="assets/img/shop_03.jpg">
 								<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
 									<ul class="list-unstyled">
-										<li><a class="btn btn-success text-white"
-											href="shop-single.jsp"><i class="far fa-heart"></i></a></li>
 										<li><a class="btn btn-success text-white mt-2"
-											href="shop-single.jsp"><i class="far fa-eye"></i></a></li>
-										<li><a class="btn btn-success text-white mt-2"
-											href="shop-single.jsp"><i class="fas fa-cart-plus"></i></a></li>
+											href="shop-single.jsp"><i class="fas fa-eye"></i></a></li>
 									</ul>
 								</div>
 							</div>
@@ -166,12 +160,8 @@
 									src="assets/img/shop_06.jpg">
 								<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
 									<ul class="list-unstyled">
-										<li><a class="btn btn-success text-white"
-											href="shop-single.jsp"><i class="far fa-heart"></i></a></li>
 										<li><a class="btn btn-success text-white mt-2"
-											href="shop-single.jsp"><i class="far fa-eye"></i></a></li>
-										<li><a class="btn btn-success text-white mt-2"
-											href="shop-single.jsp"><i class="fas fa-cart-plus"></i></a></li>
+											href="shop-single.jsp"><i class="fas fa-eye"></i></a></li>
 									</ul>
 								</div>
 							</div>

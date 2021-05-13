@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <head>
 	<title>TshirtPage</title>
-<!-- dfjslkdfjlskdfjlsijflsdkjflsdkjfo -->
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="assets/img/apple-icon.png">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -89,9 +89,7 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_11.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                   <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -120,9 +118,7 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_14.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
