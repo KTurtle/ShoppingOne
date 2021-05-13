@@ -44,7 +44,7 @@
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3 "
 						href="./getPaymentListCtrl?num=${paymentList[0].usernumber }"><b> 결제내역 </b></a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./q&a.jsp"> Q&A </a></li>
+						href="getBoardListCtrl"> Q&A </a></li>
 				</ul>
 				
 			</div>

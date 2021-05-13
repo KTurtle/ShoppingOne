@@ -58,7 +58,7 @@
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">
                 <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                	href="basket.jsp"><img src="./assets/img/sb.JPG" class="rounded-circle img-fluid border"></a>
+                	href="#"><img src="./assets/img/sb.JPG" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">장바구니</h5>
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">

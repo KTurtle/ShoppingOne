@@ -33,36 +33,24 @@
 		<div class="row">
 
 			<div class="col-lg-3">
-				
 				<ul class="list-unstyled templatemo-accordion">
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="./getUserCtrl?num=${number }"> 회원정보수정 </a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="#"> 장바구니 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3 "
-						href="./getPaymentListCtrl?num=${number }"><b> 결제내역 </b></a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./q&a.jsp"> Q&A </a></li>
+						href="./getPaymentListCtrl?num=${number }"> 결제내역 </a></li>
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
+						href="getBoardListCtrl"><b> Q&A </b></a></li>
 				</ul>
-				
 			</div>
 			
 			<div class="col-lg-auto">
 			
-			
-			<!-- 여기에 내용 -->
-			
-			</div>
-		</div>
-	</div>
-	
-	<!-- </body>뒤부터는 이쪽 뒤에 이어진다. -->
-	
-		<div align="center" style="margin: auto auto" class="card-body">
+			<div align="center" style="margin: auto auto" class="card-body">
 		<h3>
-			글 수정....<a href="logoutCtrl">LOG-OUT</a>
+			게시물 수정
 		</h3>
-		<hr>
 		<form action="updateBoardCtrl" method="post">
 	
 		<input type="hidden" name="num" class="form-control" value="${board.seq }"/>	
@@ -87,12 +75,19 @@
 				</tr>
 				<tr>
 					<td colspan="2" align="center">
-						<input type="submit" value=" 글 수정" class="btn btn-primary"/>
+						<input type="submit" value=" 수정 " class="btn btn-primary"/>
 					</td>
 				</tr>
 			</table>
 		</form>
-		<hr>
 	</div>
+			
+			</div>
+		</div>
+	</div>
+	
+	<!-- </body>뒤부터는 이쪽 뒤에 이어진다. -->
+	
+		
 </body>
 </html>

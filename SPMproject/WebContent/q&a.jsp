@@ -47,7 +47,7 @@
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="./getPaymentListCtrl?num=${number }"> 결제내역 </a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
-						href="./q&a.jsp"><b> Q&A </b></a></li>
+						href="getBoardListCtrl"><b> Q&A </b></a></li>
 				</ul>
 			</div>
 
@@ -58,9 +58,9 @@
 			<!-- <h3>${username }님 환영합니다 <a href= "logoutCtrl">Logout</a></h3> -->
 			</div> 
 	
-			<div class="mb-md-5">
+			<div class="mb-md-5 mt-md-5">
 			<c:if test="${not empty boardList }">
-				<table class="text-dark col-lg-auto">
+				<table class="text-dark" style="width: 800px">
 					<thead>
 						<tr class="border">
 							<th class="col-lg-auto border text-center p-2 mx-3">번호</th>
