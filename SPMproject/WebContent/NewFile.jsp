@@ -8,5 +8,7 @@
 </head>
 <body>
 
+	<h1>${vo.getImageURL() }</h1>
+
 </body>
 </html>
