@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -47,7 +48,7 @@
         <div class="row">
 
             <div class="col-lg-3">
-                <h1 class="h2 pb-4">bottom</h1>
+                <h1 class="h2 pb-4">Bottom</h1>
                 <ul class="list-unstyled templatemo-accordion">
                     <li class="pb-3">
                         <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
@@ -95,11 +96,15 @@
                             <div class="card rounded-0">
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_17.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                  
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">red pants</a>
+                                <a href="shop-single.html" class="h3 text-decoration-none">purple skirt</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -180,7 +185,7 @@
         </div>
     </div>
     <!-- End Content -->
-<jsp:include page="Footer.jsp" />
-</body>
 
+</body>
+<jsp:include page="Footer.jsp" />
 </html>
