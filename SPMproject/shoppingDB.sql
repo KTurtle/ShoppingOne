@@ -39,7 +39,7 @@ ProductName varchar2(20) not null,
 Explanation varchar2(50) not null,
 Price number not null,
 Inventory number not null);
-
+ProductURL varchar2(80) not null;/**/
 insert into spproduct values('T00001234','TOP','반팔티','시원함',7900,100);
 /*앞으로 몇 개 더 추가할 예정*/
 
