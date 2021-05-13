@@ -36,7 +36,7 @@
 			<div class="col-lg-3">
 				<ul class="list-unstyled templatemo-accordion">
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
-						href="./getUserCtrl?num=${User.number }"> 회원정보수정 </a></li>
+						href="./getUserCtrl?num=${User.number }"><b> 회원정보수정 </b></a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="#"> 장바구니 </a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
@@ -47,7 +47,7 @@
 			</div>
 		
 			<div class="col-lg-9">
-				<h1 class="ms-md-2 mb-md-5">회원정보수정</h1>			
+				<h3 class="mb-md-5">회원정보수정</h3>			
 		
 			<div class="mb-md-5">
 				<form class="col-lg-9" action="updateUserCtrl" method="post">
@@ -56,36 +56,36 @@
 				
 					<table class="table" style="width: 800px">
 						<tr>
-							<td style="vertical-align: middle">아이디 : </td>
+							<td class="align-middle">아이디 : </td>
 							<td align="left">${User.userid }
 							</td>
 						</tr>
 						<tr>
-							<td style="vertical-align: middle">패스워드 : </td>
+							<td class="align-middle">패스워드 : </td>
 							<td align="left">
 								<input type="text" name="password" class="form-control" value="${User.password }"/>
 							</td>
 						</tr>
 						<tr>
-							<td style="vertical-align: middle">이름 : </td>
+							<td class="align-middle">이름 : </td>
 							<td align="left">
 								<input type="text" name="username" class="form-control" value="${User.username }"/>
 							</td>
 						</tr>
 						<tr>
-							<td style="vertical-align: middle">전화번호 : </td>
+							<td class="align-middle">전화번호 : </td>
 							<td align="left">
 								<input type="text" name="tel" class="form-control" value="${User.tel }"/>
 							</td>
 						</tr>
 						<tr>
-							<td style="vertical-align: middle">E-Mail : </td>
+							<td class="align-middle">E-Mail : </td>
 							<td align="left">
 								<input type="text" name="email" class="form-control" value="${User.email }"/>
 							</td>
 						</tr>
 						<tr>
-							<td style="vertical-align: middle">주소 : </td>
+							<td class="align-middle">주소 : </td>
 							<td align="left">
 								<input type="text" name="address" class="form-control" value="${User.address }"/>
 							</td>
