@@ -81,32 +81,16 @@
 
                 <!-- ----------------------------------------------- -->
                 
-                <div>
-                	<img type="summit" src="assets/img/shop_01.jpg" 
-                		onclick="location.href='viewImage?image1=assets/img/shop_01.jpg'">
-                </div>
-                
-                
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                            	<!-- 
-                            	<form action="viewImage" method="post">
-                                <input type="image" class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg" value="assets/img/shop_01.jpg" 
-                                	onclick="viewImage" name="image1" alt="button">
-                                </form>
-                                
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                                
-                                 -->
-                                 <img type="summit" src="assets/img/shop_01.jpg" value="assets/img/shop_01.jpg" onclick="location.href='viewImage'">
+
+                                 <img type="summit" src="assets/img/shop_01.jpg">
                                 
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewImage?image1=assets/img/shop_01.jpg"><i class="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -135,9 +119,7 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_05.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewImage?image1=assets/img/shop_05.jpg"><i class="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -163,9 +145,7 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_12.jpg" width="600px", height="800px"/>
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewImage?image1=assets/img/shop_12.jpg"><i class="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
