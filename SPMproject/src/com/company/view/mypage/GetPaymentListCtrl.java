@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.company.biz.payment.PaymentVO;
 import com.company.biz.payment.impl.PaymentDAO;
 
-public class GetPaymentCtrl extends HttpServlet {
+public class GetPaymentListCtrl extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
@@ -25,6 +25,7 @@ public class GetPaymentCtrl extends HttpServlet {
 
 		request.setAttribute("Payment", payment);
 
+		System.out.println(payment.getProductid());
 		RequestDispatcher view = request.getRequestDispatcher("paymentGet.jsp");
 		view.forward(request, response);
 

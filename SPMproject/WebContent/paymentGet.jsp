@@ -46,7 +46,50 @@
 			</div>
 			
 			<div class="col-lg-9">
+				<div>
+      				<h1 class="ms-md-2 mb-md-5">결제내역확인</h1>
+    			</div>
 			
+				<div class="ms-md-2 mb-md-5">
+		      	<table class="text-dark col-lg-9">
+			         <tbody>
+			            <tr class="border-bottom">
+			               <td>결제번호</td>
+			               <td>${payment.paymentid }</td>
+			            </tr>
+			            <tr class="border-bottom">
+			               <td>회원번호</td>
+			               <td>${payment.usernumber }</td>
+			            </tr>
+			            <tr class="border-bottom">
+			               <td>상품번호</td>
+			               <td>${payment.productid }</td>
+			            </tr>
+			            <tr class="border-bottom">
+			               <td>주문수량</td>
+			               <td>${payment.cnt }</td>
+			            </tr>
+			            <tr class="border-bottom">
+			               <td>배송지</td>
+			               <td>${payment.address }</td>
+			            </tr>
+			            <tr class="border-bottom">
+			               <td>전화번호</td>
+			               <td>${payment.tel }</td>
+			            </tr>
+			            <tr class="border-bottom">
+			               <td>신용카드번호</td>
+			               <td>${payment.CCnumber }</td>
+			            </tr>
+			      
+			            <tr>
+			               <td colspan="2"><button class="btn btn-primary mt-md-5" 
+			                 onclick="location.href='#'">결제취소</button>
+			               </td>
+			            </tr>
+		         	</tbody>
+		      	</table>
+		   		</div>
 			
 			
 			</div>

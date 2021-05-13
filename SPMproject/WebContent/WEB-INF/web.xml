@@ -157,12 +157,12 @@
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>getPaymentCtrl</servlet-name>
-		<servlet-class>com.company.view.mypage.GetPaymentCtrl</servlet-class>
+		<servlet-name>getPaymentListCtrl</servlet-name>
+		<servlet-class>com.company.view.mypage.GetPaymentListCtrl</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>getPaymentCtrl</servlet-name>
-		<url-pattern>/getPaymentCtrl</url-pattern>
+		<servlet-name>getPaymentListCtrl</servlet-name>
+		<url-pattern>/getPaymentListCtrl</url-pattern>
 	</servlet-mapping>
 	
 

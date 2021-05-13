@@ -50,7 +50,7 @@
                 <button class="btn btn-primary"
 							onclick="location.href='getUserCtrl?num=${number }'">회원정보수정버튼</button>
 				<button class="btn btn-primary"
-							onclick="location.href='getPaymentCtrl?num=${number }'">결제내역조회</button>
+							onclick="location.href='getPaymentListCtrl?num=${number }'">결제내역조회</button>
             </div>
         </div>
         <div class="row">
