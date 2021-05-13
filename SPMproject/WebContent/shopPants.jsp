@@ -144,7 +144,7 @@
         </div>
     </div>
     <!-- End Content -->
-
+</div>
 </body>
 <jsp:include page="Footer.jsp" />
 </html>
