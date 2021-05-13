@@ -86,8 +86,7 @@
         <ul 
         class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
         
-        	<li class="nav-item"><a class="nav-link"
-                href="shopOuterPage.jsp">Outer</a></li>
+        	
                 
             <li class="nav-item"><a class="nav-link"
                 href="shopTopPage.jsp">Top</a></li>
@@ -98,6 +97,8 @@
             <li class="nav-item"><a class="nav-link"
                 href="shopDressPage.jsp">Dress</a></li>
                 
+            <li class="nav-item"><a class="nav-link"
+                href="shopOuterPage.jsp">Outer</a></li>    
                 
             <li class="nav-item"><a class="nav-link"
                 href="shopShoesPage.jsp">Shoes</a></li>

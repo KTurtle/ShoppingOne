@@ -55,9 +55,10 @@
                         </a>
                     </li>
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="shopBloues.jsp">
-                            Blouse
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopBloues.jsp'">
+                            Bloues
                         </a>
+                        <a href="#" onclick="location.href='shopBloues.jsp'">SNV</a>
                     </li>
                 </ul>
             </div>
