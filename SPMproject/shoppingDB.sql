@@ -33,14 +33,14 @@ values((select count(usernumber) from spuser)+1, '일반회원','dbtestuser','12
 select * from spuser;
 --------------------------------고객DB끝----------------------------------
 create table spproduct(
-ProductID varchar2(20) not null constraints product_ProductID_PK primary key,
-ProductType varchar2(20) not null,
-ProductName varchar2(20) not null,
-Explanation varchar2(50) not null,
-Price number not null,
-Inventory number not null);
-ProductURL varchar2(80) not null;/**/
-insert into spproduct values('T00001234','TOP','반팔티','시원함',7900,100);
+ProductID varchar2(20) not null constraints product_ProductID_PK primary key,/*상품코드*/
+ProductType varchar2(20) not null,/*상품종류*/
+ProductName varchar2(20) not null,/*상품명*/
+Explanation varchar2(50) not null,/*상품설명*/
+Price number not null,/*상품가격*/
+Stock number not null;/*상품재고*/
+ProductURL varchar2(80) not null;/*해당상품 메인이미지*/
+insert into spproduct values('T00001234','TOP','기본와인반팔티','40수 코마사 고급면 종류인 코마사를 사용해 부드러운감촉의 티셔츠 ',15000,1000,);
 /*앞으로 몇 개 더 추가할 예정*/
 
 select * from spproduct;
