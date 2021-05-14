@@ -91,12 +91,12 @@
 							<img class="card-img rounded-0 img-fluid" src="assets/img/shop_02.jpg">
 								<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
 							<ul class="list-unstyled">
-                                      <li><a class="btn btn-success text-white mt-2" href="detailPageForm.jsp"><i class="fas fa-eye"></i></a></li>
+                                      <li><a class="btn btn-success text-white mt-2" href="viewDetailProductBefore?productURL=assets/img/shop_02.jpg"><i class="fas fa-eye"></i></a></li>
                             </ul>
 								</div>
 							</div>
 							<div class="card-body">
-								<a href="shop-single.jsp" class="h3 text-decoration-none">
+								<a href="detailPageForm.jsp" class="h3 text-decoration-none">
 								Beige Midi Dress</a>
 								<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
 									<li>Free Size</li>
@@ -127,12 +127,12 @@
 								<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
 									<ul class="list-unstyled">
 										<li><a class="btn btn-success text-white mt-2"
-											href="shop-single.jsp"><i class="fas fa-eye"></i></a></li>
+											href="detailPageForm.jsp"><i class="fas fa-eye"></i></a></li>
 									</ul>
 								</div>
 							</div>
 							<div class="card-body">
-								<a href="shop-single.jsp" class="h3 text-decoration-none">Blue Dress
+								<a href="detailPageForm.jsp" class="h3 text-decoration-none">Blue Dress
 									</a>
 								<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
 									<li>Free Size </li>
