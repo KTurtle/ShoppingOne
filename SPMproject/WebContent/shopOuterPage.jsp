@@ -86,7 +86,7 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_13.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                   <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white mt-2" ><i class="fas fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewDetailProductBefore?productURL=assets/img/shop_13.jpg"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_05.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white mt-2" ><i class="fas fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewDetailProductBefore?productURL=assets/img/shop_05.jpg"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_07.jpg" width="600px", height="800px"/>
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white mt-2" ><i class="fas fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewDetailProductBefore?productURL=assets/img/shop_07.jpg"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
