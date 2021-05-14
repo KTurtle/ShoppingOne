@@ -52,8 +52,8 @@ public class ProductDAO {
 	      return ProductList;
 	   }
 
-	   // 상품 1개 조회
-	   public ProductVO getBoard(int num) {
+	   // 상품 1개 조회 - url로 받기
+	   public ProductVO getProduct(String url) {
 
 		   ProductVO product = null;
 
@@ -63,10 +63,11 @@ public class ProductDAO {
 	      try {
 	         conn = JdbcConnection.getConnection();
 	         
-	         String sql = "select * from sppproduct where productid = ?";
+	         String sql = "select * from spproduct where producturl = ?";
+	         
 	         stmt = conn.prepareStatement(sql);
 
-	         stmt.setInt(1, num);
+	         stmt.setString(1, url);
 
 	         rs = stmt.executeQuery();
 
@@ -79,7 +80,7 @@ public class ProductDAO {
 	        	 product.setExplanation(rs.getString("explanation"));
 	        	 product.setPrice(rs.getInt("price"));
 	        	 product.setStock(rs.getInt("stock"));
-	        	 product.setProductURL(rs.getString("productId"));
+	        	 product.setProductURL(rs.getString("productURL"));
 
 
 	            

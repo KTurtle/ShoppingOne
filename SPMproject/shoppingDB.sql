@@ -43,7 +43,7 @@ Stock number not null,/*상품재고*/
 ProductURL varchar2(80) not null);/*해당상품 메인이미지*/
 
 insert into spproduct values('T00000001','Top','기본와인반팔티','40수 코마사 고급면 종류인 코마사를 사용해 부드러운감촉의 티셔츠',15000,1000,'shop_14.jpg');
-insert into spproduct values('T00000002','Top','기본린넨긴팔','린넨소재를 사용해 통기성이 좋은 여름용 기본 긴팔',20000,1000,'shop_11.jpg');
+insert into spproduct values('T00000002','Top','기본린넨긴팔','린넨소재를 사용해 통기성이 좋은 여름용 기본 긴팔',20000,1000,'assets/img/shop_11.jpg');
 insert into spproduct values('T00000003','Top','매듭반팔블라우스','실크소재를 혼합해 부드러운 감촉의 리본디테일이 살아있는 블라우스',40000,1000,'shop_16.jpg');
 insert into spproduct values('B00000001','Bottom','핑크미디스커트','더티핑크 색상으로 세련된 색상의 미디길이 스커트',50000,1000,'shop_17.jpg');
 insert into spproduct values('B00000002','Bottom','브라운카키팬츠','카키색에 브라운톤을 더해 차분한 색감의 팬츠',40000,1000,'shop_05.jpg');

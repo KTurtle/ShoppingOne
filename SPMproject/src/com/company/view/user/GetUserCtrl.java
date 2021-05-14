@@ -22,6 +22,7 @@ public class GetUserCtrl extends HttpServlet {
 
 		UserDAO dao = new UserDAO();
 		UserVO User = dao.getUser(num);
+		//System.out.println(User);
 
 		request.setAttribute("User", User);
 
