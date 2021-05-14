@@ -76,66 +76,7 @@
 		</table>
 	</div>
 
-	<jsp:include page="HeaderSimple.jsp"></jsp:include>
-
-	<div class="container py-5">
-		<div class="row">
-
-			<div class="col-lg-3">
-				<ul class="list-unstyled templatemo-accordion">
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./getUserCtrl?num=${number }"> 회원정보수정 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="#"> 장바구니 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./getPaymentListCtrl?num=${number }"> 결제내역 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
-						href="getBoardListCtrl"><b> Q&A </b></a></li>
-				</ul>
-			</div>
-
-
-		<div class="col-lg-auto">
-			<div>
-			<h1>Q&A 게시판</h1>
-			<!-- <h3>${username }님 환영합니다 <a href= "logoutCtrl">Logout</a></h3> -->
-			</div> 
 	
-			<div class="mb-md-5 mt-md-5">
-			<c:if test="${not empty boardList }">
-				<table class="text-dark" style="width: 800px">
-					<thead>
-						<tr class="border">
-							<th class="col-lg-auto border text-center p-2 mx-3">번호</th>
-							<th class="col-lg-auto border text-center p-2 mx-3">타이틀</th>
-							<th class="col-lg-auto border text-center p-2 mx-3">작성자</th>
-							<th class="col-lg-auto border text-center p-2 mx-3">내용</th>
-							<th class="col-lg-auto border text-center p-2 mx-3">작성일</th>
-						</tr>
-					</thead>
-					
-					<tbody>
-						   
-						<c:forEach var="board" items="${boardList }">
-							<tr class="border">
-								<td class="border text-center p-2 mx-3">${board.seq }</td>
-								<td class="border text-center p-2 mx-3"><a href="getBoardCtrl?num=${board.seq }">${board.title }</a></td>
-								<td class="border text-center p-2 mx-3">${board.username }</td>
-								<td class="border text-center p-2 mx-3">${board.content }</td>
-								<td class="border text-center p-2 mx-3">${board.regdate }</td>
-							</tr>
-						</c:forEach>
-
-					</tbody>
-				</table>
-				</c:if>
-				<button class="btn btn-primary mt-md-5" 
-		        	onclick="location.href='quesAddBoard.jsp'">새 게시물 작성</button>
-		        	
-			</div>
-		</div>
-
-	</div>
 </div>
 </body>
 <jsp:include page="Footer.jsp" />
