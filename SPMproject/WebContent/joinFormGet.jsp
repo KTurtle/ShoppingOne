@@ -37,15 +37,20 @@
 		<div class="row">
 
 			<div class="col-lg-3">
-				<ul class="list-unstyled templatemo-accordion">
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
-						href="./getUserCtrl?num=${User.number }"><b> 회원정보수정 </b></a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="#"> 장바구니 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./getPaymentListCtrl?num=${User.number }"> 결제내역 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="getBoardListCtrl"> Q&A </a></li>
+			
+				<ul class="list-unstyled ">
+					<li class="pb-3"><span class="templatemo-accordion">
+					<a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
+						href="./getUserCtrl?num=${User.number }"><b> 회원정보수정 </b></a></span></li>
+					<li class="pb-3"><span class="templatemo-accordion">
+					<a class="collapsed d-flex justify-content-between text-decoration-none h3"
+						href="#"> 장바구니 </a></span></li>
+					<li class="pb-3"><span class="templatemo-accordion">
+					<a class="collapsed d-flex justify-content-between text-decoration-none h3"
+						href="./getPaymentListCtrl?num=${User.number }"> 결제내역 </a></span></li>
+					<li class="pb-3"><span class="templatemo-accordion">
+					<a class="collapsed d-flex justify-content-between text-decoration-none h3"
+						href="getBoardListCtrl"> Q&A </a></span></li>
 				</ul>
 			</div>
 			
