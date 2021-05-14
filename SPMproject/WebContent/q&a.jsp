@@ -32,7 +32,6 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<<<<<<< HEAD
 	
 	<jsp:include page="HeaderSimple.jsp" />
 	<div id="header" class="card-body">
@@ -76,7 +75,6 @@
 			</tbody>
 		</table>
 	</div>
-=======
 
 	<jsp:include page="HeaderSimple.jsp"></jsp:include>
 
@@ -96,7 +94,6 @@
 				</ul>
 			</div>
 
->>>>>>> d4b689ec5f5e626d33926ed459f1217e235c4ebf
 
 		<div class="col-lg-auto">
 			<div>
