@@ -55,6 +55,7 @@
                   href="getBoardListCtrl"><b> Q&A </b></a></li>
             </ul>
          </div>
+         
 	<div class="col-lg-9">
 	<div id="header" class="card-body">
 		<h1>Q&A 게시판</h1>
