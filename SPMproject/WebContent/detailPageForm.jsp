@@ -104,7 +104,7 @@
 			<div class="col-lg-5">
 				<table border="1">
 					<tr>
-						<td><img src="assets/images/${productvo.productURL}"
+						<td><img src="${productvo.productURL}"
 							width="340" height="300"></td>
 						<td>
 							<table border="1" style="height: 300px; width: 400px;">
