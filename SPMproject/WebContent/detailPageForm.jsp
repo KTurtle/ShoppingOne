@@ -2,12 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<<<<<<< HEAD
 <!--  14:28 push -->
-=======
-<!--  fdssssssss -->
-
->>>>>>> 625775723dfb84578b5c93e2d65cdf3d92f51b30
 <!DOCTYPE html>
 <html>
 <head>
