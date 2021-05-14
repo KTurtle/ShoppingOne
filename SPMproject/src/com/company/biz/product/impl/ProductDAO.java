@@ -33,6 +33,7 @@ public class ProductDAO {
 
 	        	productvo.setProductId(rs.getString("productId"));
 	        	productvo.setProductType(rs.getString("productType"));
+	        	productvo.setProductSubType(rs.getString("productSubType"));
 	        	productvo.setProductName(rs.getString("productName"));
 	        	productvo.setExplanation(rs.getString("explanation"));
 	        	productvo.setPrice(rs.getInt("price"));
@@ -76,6 +77,7 @@ public class ProductDAO {
 
 	        	 product.setProductId(rs.getString("productId"));
 	        	 product.setProductType(rs.getString("productType"));
+	        	 product.setProductSubType(rs.getString("productSubType"));
 	        	 product.setProductName(rs.getString("productName"));
 	        	 product.setExplanation(rs.getString("explanation"));
 	        	 product.setPrice(rs.getInt("price"));
@@ -105,18 +107,19 @@ public class ProductDAO {
 	      try {
 	         conn = JdbcConnection.getConnection();
 	         
-	         String sql = "insert into spproduct (productid, producttype, productname, explanation, price, stock, producturl) "
-	               + "values(?, ?, ?, ?, ?, ?, ?)";
+	         String sql = "insert into spproduct (productid, producttype, productsubtype, productname, explanation, price, stock, producturl) "
+	               + "values(?, ?, ?, ?, ?, ?, ?, ?)";
 
 	         stmt = conn.prepareStatement(sql);
 
 	         stmt.setString(1, productvo.getProductId());
 	         stmt.setString(2, productvo.getProductType());
-	         stmt.setString(3, productvo.getProductName());
-	         stmt.setString(4, productvo.getExplanation());
-	         stmt.setInt(5, productvo.getPrice());
-	         stmt.setInt(6, productvo.getStock());
-	         stmt.setString(7, productvo.getProductURL());
+	         stmt.setString(3, productvo.getProductSubType());
+	         stmt.setString(4, productvo.getProductName());
+	         stmt.setString(5, productvo.getExplanation());
+	         stmt.setInt(6, productvo.getPrice());
+	         stmt.setInt(7, productvo.getStock());
+	         stmt.setString(8, productvo.getProductURL());
 
 	         conn.commit();
 	         
@@ -133,7 +136,7 @@ public class ProductDAO {
 	      }
 	   }
 
-	   // 게시물 삭제
+	   // 게시물 삭제 - 오류있어서 사용하기 전에 고쳐야 합니다.
 	   public void deleteProduct(ProductVO productvo) {
  
 		      try {
@@ -165,17 +168,18 @@ public class ProductDAO {
 	      try {
 	         conn = JdbcConnection.getConnection();	        
 	         //productid, producttype, productname, explanation, price, stock, producturl
-	         String sql = "update spproduct set producttype = ?, productname = ?, explanation = ?, "
+	         String sql = "update spproduct set producttype = ?, productsubtype = ?, productname = ?, explanation = ?, "
 	         			+  "price = ?, stock = ?, producturl = ? where productid = ?";
 	         stmt = conn.prepareStatement(sql);
 
 	         stmt.setString(1, productvo.getProductId());
 	         stmt.setString(2, productvo.getProductType());
-	         stmt.setString(3, productvo.getProductName());
-	         stmt.setString(4, productvo.getExplanation());
-	         stmt.setInt(5, productvo.getPrice());
-	         stmt.setInt(6, productvo.getStock());
-	         stmt.setString(7, productvo.getProductURL());
+	         stmt.setString(3, productvo.getProductSubType());
+	         stmt.setString(4, productvo.getProductName());
+	         stmt.setString(5, productvo.getExplanation());
+	         stmt.setInt(6, productvo.getPrice());
+	         stmt.setInt(7, productvo.getStock());
+	         stmt.setString(8, productvo.getProductURL());
 	         	      
 	         
 	      }catch(Exception e){
