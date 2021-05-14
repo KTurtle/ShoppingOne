@@ -44,7 +44,7 @@
 			
 				<c:choose>
 
-				<c:when test="${productvo.producttype eq 'Top'}">
+					<c:when test="${productvo.producttype eq 'Top'}">
 				<ul class="list-unstyled templatemo-accordion"> 
 					<li class="pb-3"><a
 						class="collapsed d-flex justify-content-between h3 text-decoration-none"
