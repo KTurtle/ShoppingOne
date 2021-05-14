@@ -25,7 +25,6 @@ public class ViewDetailProductBefore extends HttpServlet{
 		//DAO에 받은 번호를 전달하고 그 결과값을 받는다.
 		ProductDAO dao = new ProductDAO();
 		ProductVO productvo = dao.getProduct(url);
-		//System.out.println(productvo);
 		
 		request.setAttribute("productvo", productvo);
 
