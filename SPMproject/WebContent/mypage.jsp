@@ -47,27 +47,28 @@
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
                 <h1 class="h1">My page</h1>
-                <button class="btn btn-primary"
-							onclick="location.href='getUserCtrl?num=${number }'">회원정보수정버튼</button>
-				<button class="btn btn-primary"
-							onclick="location.href='getPaymentListCtrl?num=${number }'">결제내역조회</button>
             </div>
         </div>
+        
         <div class="row">
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="userinfoed.jsp"><img src="./assets/img/user.png" class="rounded-circle img-fluid border"></a>
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                	href="getUserCtrl?num=${number }"><img src="./assets/img/user.png" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">회원정보수정</h5>
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="basket.jsp"><img src="./assets/img/sb.JPG" class="rounded-circle img-fluid border"></a>
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                	href="#"><img src="./assets/img/sb.JPG" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">장바구니</h5>
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="payment.jsp"><img src="./assets/img/sr.JPG" class="rounded-circle img-fluid border"></a>
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                	href="getPaymentListCtrl?num=${number }"><img src="./assets/img/sr.JPG" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">결제내역</h5> 
             </div>
             <div class="col-10 col-md-3 p-3 mt-3">
-                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="getBoardListCtrl"><img src="./assets/img/qa.JPG" class="rounded-circle img-fluid border"></a>
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                	href="getBoardListCtrl"><img src="./assets/img/qa.JPG" class="rounded-circle img-fluid border"></a>
                  <h5 class="text-center mt-3 mb-3">Q&A</h5> 
             </div>
         </div>

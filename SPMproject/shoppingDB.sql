@@ -1,8 +1,10 @@
 drop table spuser;
 drop table spproduct;
 drop table spbasket;
+drop table sppayment;
 drop table board;
 
+--------------------------------고객DB----------------------------------
 create table spuser(
 	UserNumber 	number 			constraints user_UserNumber_PK primary key,
 	UserType	varchar2(20) 	default '일반회원',
@@ -13,7 +15,6 @@ create table spuser(
 	Email 		varchar2(30) 	not null,
 	Address 	varchar2(50)	not null
 );
-
 
 select * from spuser where userid = 'admin' and password = '1234'; 
 
@@ -27,8 +28,10 @@ insert into spuser(usernumber, UserType, userid, password, username, tel, email,
 values((select count(usernumber) from spuser)+1, '일반회원','dbtestuser','1234','dbtest','010-1234-1239','fhjd33@naver.com','수원시 권선구');
 
 select * from spuser;
+
 --------------------------------고객DB끝----------------------------------
 
+--------------------------------상품DB-----------------------------------
 
 create table spproduct(
 ProductID varchar2(20) not null constraints product_ProductID_PK primary key,/*상품코드*/
@@ -60,8 +63,10 @@ insert into spproduct values('S00000003','Shoes','블랙운동화','스포티한
 
 select * from spproduct;
 
-
 --------------------------------상품DB끝----------------------------------
+
+--------------------------------장바구니DB----------------------------------
+
 create table spbasket(
 	BasketID number constraints basket_BasketID_PK primary key,
 	UserNumber number not null,
@@ -70,25 +75,28 @@ create table spbasket(
 	price number not null);
 
 
-
-
 select * from spbasket;
+
 --------------------------------장바구니DB끝----------------------------------
+
+--------------------------------결제DB----------------------------------
 
 create table sppayment(
 PaymentID number not null constraints payment_PaymentID_PK primary key,
-UserNumber number not null,
-ProductID varchar2(20) not null,
+UserNumber number not null, -- spuser PK
+ProductID varchar2(20) not null, -- spproduct PK -> 결제 후 spproduct stock - 1
+BasketID number not null, -- spbasket PK -> cnt를 가져올 수 있음&가격 정보 가져와서 total price 계산해야함.
 cnt number not null,
 address varchar2(50) not null,
 tel varchar2(20) not null,
 CCnumber varchar2(30) not null,
 CCpassword number not null
 );
+-- CC : Credit Card 신용카드 정보
 
-insert into sppayment values(1,1000004,'S1308',5,'수원시 팔달구','010-1234-1238','0000-0000-0000-0000',1234);
-insert into sppayment values(2,1000000,'S1308',5,'서울 동대문구','010-1234-1234','0000-0000-0000-0000',1234);
-insert into sppayment values(3,1000000,'T1304',3,'서울 동대문구','010-1234-1234','0000-0000-0000-0000',1234);
+insert into sppayment values(1,1000004,'T00000001',3,5,'수원시 팔달구','010-1234-1238','0000-0000-0000-0000',1234);
+insert into sppayment values(2,1000000,'T00000002',3,3,'서울 동대문구','010-1234-1234','0000-0000-0000-0000',1234);
+insert into sppayment values(3,1000000,'S00000001',3,2,'서울 동대문구','010-1234-1234','0000-0000-0000-0000',1234);
 
 select * from sppayment;
 --------------------------------결제DB끝----------------------------------
@@ -109,7 +117,7 @@ create table board(
 	userid varchar2(8)
 );
 
---------------------------------------
+
 insert into board(seq, title, username, content, regdate, userid) 
 values(1, '첫 번째 게시물', '홍길동', '첫 번째 게시물 내용.', '2017-02-05', 'hong');
 
@@ -117,8 +125,6 @@ insert into board(seq, title, username, content, regdate, userid)
 values((select nvl(max(seq), 0)+1 from board), '일곱 번째 게시물', '일지매', '일곱 번째 게시물 내용.', '2017-12-25', 'guest');
 
 select * from board;
-
-
 
 
 
