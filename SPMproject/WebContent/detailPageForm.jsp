@@ -48,7 +48,8 @@
 
 				<c:when test="${productvo.productType eq 'Top'}">
 				<h1 class="h2 pb-4" onclick="location.href='shopTopPage.jsp'" >Top</h1>
-
+				<c:when test="${productvo.productType eq 'Top'}">
+				<h1 class="h2 pb-4" onclick="location.href='shopTopPage.jsp'" >Top</h1>
 				<ul class="list-unstyled templatemo-accordion"> 
 					<li class="pb-3"><a
 						class="collapsed d-flex justify-content-between h3 text-decoration-none"
