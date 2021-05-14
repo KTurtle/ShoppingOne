@@ -50,12 +50,12 @@
                 <h1 class="h2 pb-4">Shoes</h1>
                 <ul class="list-unstyled templatemo-accordion">
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopHeels.jsp'">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" onclick="location.href='shopHeels.jsp'">
                             Heels
                         </a>
                     </li>
                     <li class="pb-3">
-                         <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopSneakers.jsp'">
+                         <a class="collapsed d-flex justify-content-between h3 text-decoration-none" onclick="location.href='shopSneakers.jsp'">
                             Sneakers
                         </a>
                     </li>
@@ -85,12 +85,12 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/banner_img_01.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                   <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white mt-2" href="detailPageForm.jsp"><i class="fas fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewDetailProductBefore?productURL=assets/img/banner_img_01.jpg"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="detailPageForm.jsp" class="h3 text-decoration-none">White Sneakers</a>
+                                <a class="h3 text-decoration-none">White Sneakers</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>240</li>
                                     <li class="pt-2">
@@ -114,12 +114,12 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/category_img_02.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white mt-2" href="detailPageForm.jsp"><i class="fas fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewDetailProductBefore?productURL=assets/img/category_img_02.jpg"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="detailPageForm.jsp" class="h3 text-decoration-none">Black Sneakers</a>
+                                <a class="h3 text-decoration-none">Black Sneakers</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>240</li>
                                     <li class="pt-2">

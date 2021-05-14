@@ -53,12 +53,12 @@
                 <ul class="list-unstyled templatemo-accordion">
                 
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopTshirt.jsp'">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" onclick="location.href='shopTshirt.jsp'">
                             T-shirt
                         </a>
                     </li>
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopBlouse.jsp'">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" onclick="location.href='shopBlouse.jsp'">
                             Blouse
                         </a>
                     </li>
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="detailPageForm.jsp" class="h3 text-decoration-none">Navy T-shirt</a>
+                                <a class="h3 text-decoration-none">Navy T-shirt</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>Free Size</li>
                                     <li class="pt-2">
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="detailPageForm.jsp" class="h3 text-decoration-none">Red T-shirt</a>
+                                <a class="h3 text-decoration-none">Red T-shirt</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>Free Size</li>
                                     <li class="pt-2">
