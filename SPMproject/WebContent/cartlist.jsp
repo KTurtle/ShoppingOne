@@ -30,7 +30,7 @@
 </head>
 <body>
 	<!-- header -->
-	<jsp:include page="HeaderSi.jsp" />
+	<jsp:include page="HeaderSimple.jsp" />
 	<!-- header끝 -->
 
 	<div class="container">
