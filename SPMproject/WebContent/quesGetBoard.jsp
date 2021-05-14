@@ -33,7 +33,6 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<<<<<<< HEAD
 <jsp:include page="HeaderSimple.jsp" />
    <div id="header" class="card-body">
       <h1>Q&A 게시글</h1>
@@ -74,73 +73,6 @@
    </div>
 
    <div id="footer" class="card-body"></div>
-=======
-
-	<jsp:include page="HeaderSimple.jsp"></jsp:include>
-
-	<div class="container py-5">
-		<div class="row">
-
-			<div class="col-lg-3">
-				<ul class="list-unstyled templatemo-accordion">
-					<li class="pb-3"><a
-						class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./getUserCtrl?num=${number }"> 회원정보수정 </a></li>
-					<li class="pb-3"><a
-						class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="#"> 장바구니 </a></li>
-					<li class="pb-3"><a
-						class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./getPaymentListCtrl?num=${number }"> 결제내역 </a></li>
-					<li class="pb-3"><a
-						class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
-						href="getBoardListCtrl"><b> Q&A </b></a></li>
-				</ul>
-			</div>
-
-			<div class="col-lg-auto">
-
-				<div id="header" class="card-body">
-					<h1>게시물 확인</h1>
-				</div>
-
-				<div id="content" class="card-body">
-					<table class="table mb-4" style="width: 800px">
-						<tbody>
-							<tr>
-								<td>번호</td>
-								<td>${board.seq }</td>
-							</tr>
-							<tr>
-								<td>제목</td>
-								<td>${board.title }</td>
-							</tr>
-							<tr>
-								<td>내용</td>
-								<td>${board.content }</td>
-							</tr>
-							<tr>
-								<td>작성일</td>
-								<td>${board.regdate }</td>
-							</tr>
-
-						</tbody>
-					</table>
-
-					<button class="btn btn-primary"
-						onclick="location.href='getBoardListCtrl'">목록</button>
-					<button class="btn btn-primary"
-						onclick="location.href='updateBoardBeforeCtrl?num=${board.seq }'">수정</button>
-					<button class="btn btn-danger"
-						onclick="location.href='deleteBoardCtrl?num=${board.seq }'">삭제</button>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-
->>>>>>> d4b689ec5f5e626d33926ed459f1217e235c4ebf
 </body>
 <jsp:include page="Footer.jsp" />
 </html>
