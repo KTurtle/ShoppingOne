@@ -186,8 +186,8 @@
                                 <h1 class="h1 text-success"><b>ASCOM은</b> </h1>
                                 	<h3 class="h2">빠른 배송, 높은 품질 제공을 <br>약속드립니다.</h3>
                                 <p>
-                                    You are permitted to use this Zay CSS template for your commercial websites. 
-                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                   <Strong>Our ASCOM,</Strong> which was newly established in 2020, has many customers so far, has grown based on good quality and fast delivery. 
+                                   We started shipping overseas in 2021, and we are currently with many global customers.
                                 </p>
                             </div>
                         </div>  
@@ -221,8 +221,8 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.jsp">
-                            <img src="./assets/img/shop_03.jpg" class="card-img-top" alt="...">
+                        <a href="viewDetailProductBefore?productURL=assets/img/shop_03.jpg">
+                            <img src="assets/img/shop_03.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -233,11 +233,11 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">$80.00</li>
+                                <li class="text-muted text-right">65000</li>
                             </ul>
-                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">Blue Dress</a>
+                            <a href="viewDetailProductBefore?productURL=assets/img/shop_03.jpg" class="h2 text-decoration-none text-dark">네이비드레스</a>
                             <p class="card-text">
-                                상세페이지 상품 설명
+                                네이비색상의 주름디테일 드레스
                             </p>
                             
                         </div>
@@ -245,7 +245,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.jsp">
+                        <a href="viewDetailProductBefore?productURL=assets/img/shop_16.jpg">
                             <img src="./assets/img/shop_16.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
@@ -257,11 +257,11 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">$30.00</li>
+                                <li class="text-muted text-right">40000</li>
                             </ul>
-                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">White Blouse</a>
+                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">매듭반팔블라우스</a>
                             <p class="card-text">
-                                상세페이지 상품 설명
+                                실크소재를 혼합해 부드러운 감촉의 리본디테일이 살아있는 블라우스
                             </p>
                             
                         </div>
@@ -269,7 +269,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.jsp">
+                        <a href="viewDetailProductBefore?productURL=assets/img/shop_05.jpg">
                             <img src="./assets/img/shop_05.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
@@ -281,11 +281,11 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">$280.00</li>
+                                <li class="text-muted text-right">105000</li>
                             </ul>
-                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">Black Jacket</a>
+                            <a href="shop-single.jsp" class="h2 text-decoration-none text-dark">블랙자켓</a>
                             <p class="card-text">
-                               상세페이지 상품 설명
+                               심플한 기본 자켓
                             </p>
                            
                         </div>

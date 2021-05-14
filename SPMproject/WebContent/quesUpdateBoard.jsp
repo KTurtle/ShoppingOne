@@ -104,9 +104,6 @@ https://templatemo.com/tm-559-zay-shop
 		</class>
 	</div>
 
-	
-
-
 	<!-- Close Header -->
 </body>
 
@@ -139,14 +136,14 @@ https://templatemo.com/tm-559-zay-shop
 
             <div align="center" style="margin: auto auto" class="card-body">
                <h3>
-                  ${username }님 새 게시물 작성
+                  ${username }님 게시물 수정
                </h3>
 
                <form action="addBoardCtrl" method="post">
                   <table class="table" style="width: 800px">
                      <tr>
                         <td>제목</td>
-                        <td align="left"><input type="text" name="title" class="form-control" /></td>
+                        <td align="left"><input type="text" name="title" class="form-control" value="${board.title }" /></td>
                      </tr>
                      <tr>
                         <td>작성자</td>
@@ -155,7 +152,7 @@ https://templatemo.com/tm-559-zay-shop
                      </tr>
                      <tr>
                         <td>내용</td>
-                        <td align="left"><textarea name="content" cols="40" rows="10" class="form-control"></textarea></td>
+                        <td align="left"><textarea name="content" cols="40" rows="10" class="form-control">${board.content }</textarea></td>
                      </tr>
                      <tr>
                         <td colspan="2" align="center"><input type="submit" value=" 새글 등록 " class="btn btn-success" /></td>
