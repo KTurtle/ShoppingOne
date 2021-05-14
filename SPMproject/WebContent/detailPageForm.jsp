@@ -43,8 +43,8 @@
 				<h1 class="h2 pb-4" onclick="location.href='shop${productvo.producttype}Page.jsp'" >${productvo.producttype}</h1>								
 			
 				<c:choose>
-				<!-- 1.Top -->
-				<c:when test="${productvo.producttype == 'Top'}">
+
+				<c:when test="${productvo.producttype eq 'Top'}">
 				<ul class="list-unstyled templatemo-accordion"> 
 					<li class="pb-3"><a
 						class="collapsed d-flex justify-content-between h3 text-decoration-none"
@@ -104,7 +104,7 @@
 			<div class="col-lg-5">
 				<table border="1">
 					<tr>
-						<td><img src="${path}/images/${productvo.productURL}"
+						<td><img src="assets/images/${productvo.productURL}"
 							width="340" height="300"></td>
 						<td>
 							<table border="1" style="height: 300px; width: 400px;">
@@ -124,7 +124,7 @@
 								<tr align="center">
 									<td colspan="2">
 										<form name="form1" method="post"
-											action="${path}/shop/cart/insert.do">
+											action="assets/shop/cart/insert.do">
 											<input type="hidden" name="productId"
 												value="${productvo.productId}"> <select
 												name="amount">
