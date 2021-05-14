@@ -88,7 +88,6 @@
 			<tr>
 				<td colspan="5">
 				
-					<!-- <a href="quesAddBoard.jsp">새 게시물 작성</a>  -->
 					
 					<a class="btn btn-success" href="quesAddBoard.jsp" role="button">새 게시물 작성</a>
 				</td>
