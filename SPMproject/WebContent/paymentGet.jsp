@@ -5,13 +5,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>결제내역조회</title>
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon"
+		href="assets/img/favicon.ico">
+	
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/templatemo.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
+	
 	<!-- Load fonts style after rendering the layout styles -->
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
@@ -24,7 +27,6 @@
 	
 	-->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
 </head>
 <body>
 
@@ -32,21 +34,21 @@
 	
 	
 	<div class="container py-5">
+	
 		<div class="row">
-
+		
 			<div class="col-lg-3">
-				
-				<ul class="list-unstyled templatemo-accordion">
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./getUserCtrl?num=${paymentList[0].usernumber }"> 회원정보수정 </a></li>
+			
+				<ul class="list-unstyled">
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3 templatemo-accordion"
+						href="./getUserCtrl?num=${number }"> 회원정보수정 </a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="#"> 장바구니 </a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3 "
-						href="./getPaymentListCtrl?num=${paymentList[0].usernumber }"><b> 결제내역 </b></a></li>
-					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
+						href="./getPaymentListCtrl?num=${number }"><b> 결제내역 </b></a></li>
+					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3 templatemo-accordion"
 						href="getBoardListCtrl"> Q&A </a></li>
 				</ul>
-				
 			</div>
 			
 			<div class="col-lg-auto">

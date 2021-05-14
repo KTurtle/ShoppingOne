@@ -40,7 +40,7 @@
       
 		<!-- <a href ="/WebClientTest/ex01.htm"> -->
         <div class="col-lg-3">
-			<ul class="list-unstyled templatemo-accordion">
+			<ul class="list-unstyled">
 				<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
 					href="./getUserCtrl?num=${number }"><b> 회원정보수정 </b></a></li>
 				<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
