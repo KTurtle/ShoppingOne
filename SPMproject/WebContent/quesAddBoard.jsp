@@ -9,6 +9,7 @@
 <head>
 <meta charset="UTF-8">
 <title>새글등록</title>
+<!-- ㄹㅇㄴㅁㄹㅇㄴㅁㄹㅇㄴㅁㄹㅇㄴㅁㄹㅇ11:02 -->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
