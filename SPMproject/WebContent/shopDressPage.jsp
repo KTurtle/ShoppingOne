@@ -92,7 +92,7 @@
 							<img class="card-img rounded-0 img-fluid" src="assets/img/shop_02.jpg">
 								<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
 							<ul class="list-unstyled">
-                                      <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-eye"></i></a></li>
+                                      <li><a class="btn btn-success text-white mt-2" href="detailPageForm.jsp"><i class="fas fa-eye"></i></a></li>
                             </ul>
 								</div>
 							</div>

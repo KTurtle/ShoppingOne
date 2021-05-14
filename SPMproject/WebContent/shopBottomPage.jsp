@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Purple Skirt</a>
+                                <a href="sdetailPageForm.jsp" class="h3 text-decoration-none">Purple Skirt</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>Free Size</li>
                                     <li class="pt-2">
@@ -124,7 +124,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Brown Pants</a>
+                                <a href="detailPageForm.jsp" class="h3 text-decoration-none">Brown Pants</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>Free Size</li>
                                     <li class="pt-2">
@@ -150,7 +150,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Black Pants</a>
+                                <a href="detailPageForm.jsp" class="h3 text-decoration-none">Black Pants</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>Free Size</li>
                                     <li class="pt-2">
