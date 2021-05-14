@@ -38,7 +38,7 @@
 				
 				<ul class="list-unstyled templatemo-accordion">
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
-						href="./getUserCtrl?num=${paymentList[0].usernumber }"> 회원정보수정 </a></li>
+						href="./getUserCtrl?num=${User.number }"> 회원정보수정 </a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none h3"
 						href="#"> 장바구니 </a></li>
 					<li class="pb-3"><a class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3 "
@@ -104,6 +104,6 @@
 			
 		</div>
 	</div>
-
+<jsp:include page="Footer.jsp" />
 </body>
 </html>

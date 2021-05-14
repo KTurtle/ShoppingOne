@@ -37,20 +37,21 @@
 	
 	<div class="container lg-8">
       <div class="row">
-
+      
+		<!-- <a href ="/WebClientTest/ex01.htm"> -->
          <div class="col-lg-3">
             <ul class="list-unstyled templatemo-accordion">
-               <li class="pb-3"><a
-                  class="collapsed d-flex justify-content-between text-decoration-none h3"
-                  href="./getUserCtrl?num=1000000"> 회원정보수정 </a></li>
-               <li class="pb-3"><a
-                  class="collapsed d-flex justify-content-between text-decoration-none h3"
+               <li class="pb-3">
+               <a class="collapsed d-flex justify-content-between text-decoration-none h3"
+                  href="./getUserCtrl?num=${User.number }"> 회원정보수정 </a></li>
+               <li class="pb-3">
+               <a class="collapsed d-flex justify-content-between text-decoration-none h3"
                   href="#"> 장바구니 </a></li>
-               <li class="pb-3"><a
-                  class="collapsed d-flex justify-content-between text-decoration-none h3"
-                  href="./getPaymentListCtrl?num=1000000"> 결제내역 </a></li>
-               <li class="pb-3"><a
-                  class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
+               <li class="pb-3">
+               <a class="collapsed d-flex justify-content-between text-decoration-none h3"
+                  href="./getPaymentListCtrl?num=${User.number }"> 결제내역 </a></li>
+               <li class="pb-3">
+               <a  class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
                   href="getBoardListCtrl"><b> Q&A </b></a></li>
             </ul>
          </div>
