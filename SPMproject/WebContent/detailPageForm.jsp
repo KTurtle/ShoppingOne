@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>상세페이지</title> <!-- detailPageForm.jsp -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
@@ -37,28 +37,14 @@
 		<div class="row">
 
 			<!-- 상품별 상세페이지 폼 -->
-<c:choose>
-<c:when test="${조건문1}">
-//조건문1이 참임 조건인 경우 수행되는 문장
-</c:when>
-<c:when test="${조건문2}">
-//조건문1이 참임 조건인 경우 수행되는 문장
-</c:when>
-<c:when test="${조건문3}">
-//조건문1이 참임 조건인 경우 수행되는 문장
-</c:when>
-<c:otherwise>
-//위 조건에 해당하지 않는 경우 수행되는 문장
-</c:otherwise>
-</c:choose>
 
 			<!-- 왼쪽 카테고리 폼 -->
 			<div class="col-lg-3">
 				<h1 class="h2 pb-4" onclick="location.href='shop${productvo.producttype}Page.jsp'" >${productvo.producttype}</h1>								
-			<%-- 난리시작 ㅎㅎ	
+			
 				<c:choose>
 				<!-- 1.Top -->
-				<c:when test="${productvo.producttype == 'Top'}"
+				<c:when test="${productvo.producttype == 'Top'}">
 				<ul class="list-unstyled templatemo-accordion"> 
 					<li class="pb-3"><a
 						class="collapsed d-flex justify-content-between h3 text-decoration-none"
@@ -69,7 +55,8 @@
 				</ul>	
 				</c:when>
 				</c:choose>
-				  
+				 
+				 <%-- 
 				<!-- 2.Bottom -->			
 				<ul class="list-unstyled templatemo-accordion"> 
 					<li class="pb-3"><a
@@ -106,8 +93,8 @@
 						class="collapsed d-flex justify-content-between h3 text-decoration-none"
 						href="#"> <c:when test="${productvo.producttype}=Shoes">Sneakers</c:when> </a></li>
 				</ul>
-				--%>
 				
+				--%>
 				
 				
 			</div>

@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <!--Header01 (기본으로 사용하는 홈페이지 헤더부분) -->
 <html>
@@ -41,13 +41,23 @@ https://templatemo.com/tm-559-zay-shop
 						class="navbar-sm-brand text-light text-decoration-none">010-020-0340</a>
 				</div>
                 <div>
-                    <a class="text-light" href="./login.jsp" rel="sponsored">로그인</a>
-                    &nbsp;&nbsp;&nbsp;
-                    <a class="text-light" href="./joinForm.jsp" rel="sponsored">회원가입</a>
-                    &nbsp;&nbsp;&nbsp;
-                    <a class="text-light" href="./q&a.jsp" rel="sponsored">Q&A</a>
-                    &nbsp;&nbsp;&nbsp;
-                    
+                    <!-- login 안 된 상태 -->
+                    <c:if test = "${username == null}">
+                        <a class="text-light" href="./login.jsp" rel="sponsored">로그인</a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a class="text-light" href="./joinForm.jsp" rel="sponsored">회원가입</a>
+                        &nbsp;&nbsp;&nbsp;
+                    </c:if>
+
+
+                    <!-- login 된 상태 -->
+
+                    <c:if test = "${username != null}">
+                        <a class="text-light" href="logoutCtrl" rel="sponsored">로그아웃</a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a class="text-light" href="mypage.jsp" rel="sponsored">마이페이지</a>
+                        &nbsp;&nbsp;&nbsp;
+                    </c:if>
                 </div>
 			</div>
 		</div>
