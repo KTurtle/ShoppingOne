@@ -91,7 +91,7 @@
 					</c:forEach>
 
 		            <tr>
-		               <td colspan="2"><button class="btn btn-primary mt-md-5" 
+		               <td colspan="2"><button class="btn btn-success mt-md-5" 
 		                 onclick="location.href='#'">결제취소</button>
 		               </td>
 		            </tr>
