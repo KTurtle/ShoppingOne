@@ -46,8 +46,7 @@
 				<!-- c 안쪽에는 주석 불가능합니다! -->
 				<c:choose>
 
-				<c:when test="${productvo.productType eq 'Top'}">
-				<h1 class="h2 pb-4" onclick="location.href='shopTopPage.jsp'" >Top</h1>
+
 				<c:when test="${productvo.productType eq 'Top'}">
 				<h1 class="h2 pb-4" onclick="location.href='shopTopPage.jsp'" >Top</h1>
 				<ul class="list-unstyled templatemo-accordion"> 
