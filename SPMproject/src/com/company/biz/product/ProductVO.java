@@ -4,6 +4,7 @@ public class ProductVO {
 	
 		private String productId;
 		private String productType;
+		private String productSubType;
 		private String productName;
 		private String explanation;
 		private int price;
@@ -20,6 +21,12 @@ public class ProductVO {
 		}
 		public void setProductType(String productType) {
 			this.productType = productType;
+		}
+		public String getProductSubType() {
+			return productSubType;
+		}
+		public void setProductSubType(String productSubType) {
+			productSubType = productSubType;
 		}
 		public String getProductName() {
 			return productName;
@@ -53,9 +60,11 @@ public class ProductVO {
 		}
 		@Override
 		public String toString() {
-			return "ProductVO [productId=" + productId + ", productType=" + productType + ", productName=" + productName
-					+ ", explanation=" + explanation + ", price=" + price + ", stock=" + stock + ", productURL="
-					+ productURL + "]";
+			return "ProductVO [productId=" + productId + ", productType=" + productType + ", ProductSubType="
+					+ productSubType + ", productName=" + productName + ", explanation=" + explanation + ", price="
+					+ price + ", stock=" + stock + ", productURL=" + productURL + "]";
 		}
+		
+		
 		
 }
