@@ -4,14 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <title>새글등록</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+<jsp:include page="HeaderSimple.jsp" />
 	<div align="center" style="margin: auto auto" class="card-body">
 		<h3>
-			글 수정....<a href="logoutCtrl">LOG-OUT</a>
+			게시글 수정 <a href="logoutCtrl">LOG-OUT</a>
 		</h3>
+		
 		<hr>
 		<form action="updateBoardCtrl" method="post">
 	
@@ -37,12 +39,14 @@
 				</tr>
 				<tr>
 					<td colspan="2" align="center">
-						<input type="submit" value=" 글 수정" class="btn btn-primary"/>
+						<input type="submit" value=" 글 수정" class="btn btn-success"/>
 					</td>
 				</tr>
 			</table>
 		</form>
 		<hr>
 	</div>
+	<div id="footer" class="card-body"></div>
 </body>
+	<jsp:include page="Footer.jsp" />
 </html>

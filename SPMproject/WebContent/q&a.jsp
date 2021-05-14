@@ -13,6 +13,8 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+	
+	<jsp:include page="HeaderSimple.jsp" />
 	<div id="header" class="card-body">
 		<h1>Q&A 게시판</h1>
 		<!-- <h3>${username }님 환영합니다 <a href= "logoutCtrl">Logout</a></h3> -->   
@@ -20,11 +22,12 @@
 
 	<div id="content" class="card-body">
 		<table class="table">
-			<thead>
+			<thead class="table-dark">
 				<tr>
 					<th>번호</th>
 					<th>타이틀</th>
 					<th>작성자</th>
+					<!-- <th>내용</th> -->
 					<th>작성일</th>
 				</tr>
 			</thead>
@@ -37,14 +40,17 @@
 					<td>${board.seq }</td>
 					<td><a href="getBoardCtrl?num=${board.seq }">${board.title }</a></td>
 					<td>${board.username }</td>
-					<td>${board.content }</td>
+					<!-- <td>${board.content }</td> -->
 					<td>${board.regdate }</td>
 				</tr>
 				</c:forEach>
 		
 			<tr>
 				<td colspan="5">
-					<a href="quesAddBoard.jsp">새 게시물 작성</a>
+				
+					<!-- <a href="quesAddBoard.jsp">새 게시물 작성</a>  -->
+					
+					<a class="btn btn-success" href="quesAddBoard.jsp" role="button">새 게시물 작성</a>
 				</td>
 			</tr>
 			</tbody>
@@ -53,4 +59,5 @@
 
 	<div id="footer" class="card-body"></div>
 </body>
+<jsp:include page="Footer.jsp" />
 </html>
