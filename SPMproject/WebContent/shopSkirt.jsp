@@ -50,12 +50,12 @@
                 <h1 class="h2 pb-4">Bottom</h1>
                 <ul class="list-unstyled templatemo-accordion">
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopSkirt.jsp'">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" onclick="location.href='shopSkirt.jsp'">
                             Skirt
                         </a>
                     </li>
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="location.href='shopPants.jsp'">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" onclick="location.href='shopPants.jsp'">
                             Pants
                         </a>
                     </li>
@@ -86,12 +86,12 @@
                                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_17.jpg">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white mt-2" href="detailPageForm.jsp"><i class="fas fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="viewDetailProductBefore?productURL=assets/img/shop_17.jpg"><i class="fas fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="detailPageForm.jsp" class="h3 text-decoration-none">Purple Skirt</a>
+                                <a class="h3 text-decoration-none">Purple Skirt</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>Free Size</li>
                                     <li class="pt-2">
