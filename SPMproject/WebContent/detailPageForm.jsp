@@ -75,10 +75,10 @@
 				<ul class="list-unstyled templatemo-accordion"> 
 					<li class="pb-3"><a
 						class="collapsed d-flex justify-content-between h3 text-decoration-none"
-						href="#" onclick="location.href='shopLong.jsp'">Long</a></li>
+						href="#" onclick="location.href='shopLongD.jsp'">Long</a></li>
 					<li class="pb-3"><a
 						class="collapsed d-flex justify-content-between h3 text-decoration-none"
-						href="#" onclick="location.href='shopMidi.jsp'">Midi</a></li>
+						href="#" onclick="location.href='shopMidiD.jsp'">Midi</a></li>
 				</ul>	
 				</c:when>
 				
