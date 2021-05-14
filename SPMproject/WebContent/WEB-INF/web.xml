@@ -26,17 +26,32 @@
 
 	<!-- 서블릿 -->
 	
-<!-- == Start User Servlet ============================================== -->
 
+<!-- == Start Product Servlet ============================================== -->
 	<servlet>
 		<servlet-name>viewDetailProduct</servlet-name>
-		<servlet-class>com.company.biz.product.ViewDetailProduct</servlet-class>
+		<servlet-class>com.company.view.product.ViewDetailProduct</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>viewDetailProduct</servlet-name>
 		<url-pattern>/viewDetailProduct</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>viewDetailProductBefore</servlet-name>
+		<servlet-class>com.company.view.product.ViewDetailProductBefore</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>viewDetailProductBefore</servlet-name>
+		<url-pattern>/viewDetailProductBefore</url-pattern>
+	</servlet-mapping>
+	
+<!-- == End Product Servlet ============================================== -->
+
+	
+<!-- == Start User Servlet ============================================== -->	
 	
 	<servlet>
 		<servlet-name>logoutCtrl</servlet-name>
