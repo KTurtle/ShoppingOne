@@ -2,7 +2,12 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<<<<<<< HEAD
 <!--  14:28 push -->
+=======
+<!--  fdssssssss -->
+
+>>>>>>> 625775723dfb84578b5c93e2d65cdf3d92f51b30
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,6 +49,8 @@
 				<!-- 왼쪽 카테고리 폼 -->
 				<!-- c 안쪽에는 주석 불가능합니다! -->
 				<c:choose>
+
+
 				<c:when test="${productvo.productType eq 'Top'}">
 				<h1 class="h2 pb-4" onclick="location.href='shopTopPage.jsp'" >Top</h1>
 				<ul class="list-unstyled templatemo-accordion"> 
