@@ -34,12 +34,35 @@
 <body>
 	
 	<jsp:include page="HeaderSimple.jsp" />
+	
+	<div class="container lg-8">
+      <div class="row">
+
+         <div class="col-lg-3">
+            <ul class="list-unstyled templatemo-accordion">
+               <li class="pb-3"><a
+                  class="collapsed d-flex justify-content-between text-decoration-none h3"
+                  href="./getUserCtrl?num=1000000"> 회원정보수정 </a></li>
+               <li class="pb-3"><a
+                  class="collapsed d-flex justify-content-between text-decoration-none h3"
+                  href="#"> 장바구니 </a></li>
+               <li class="pb-3"><a
+                  class="collapsed d-flex justify-content-between text-decoration-none h3"
+                  href="./getPaymentListCtrl?num=1000000"> 결제내역 </a></li>
+               <li class="pb-3"><a
+                  class="collapsed d-flex justify-content-between text-decoration-none text-primary h3 pb-3 pt-3"
+                  href="getBoardListCtrl"><b> Q&A </b></a></li>
+            </ul>
+         </div>
+	<div class="col-lg-9">
 	<div id="header" class="card-body">
 		<h1>Q&A 게시판</h1>
 		<!-- <h3>${username }님 환영합니다 <a href= "logoutCtrl">Logout</a></h3> -->   
 	</div>
 
+	
 	<div id="content" class="card-body">
+	
 		<table class="table">
 			<thead class="table-dark">
 				<tr>
@@ -75,8 +98,8 @@
 			</tbody>
 		</table>
 	</div>
-
-	
+</div>
+	</div>
 </div>
 </body>
 <jsp:include page="Footer.jsp" />
